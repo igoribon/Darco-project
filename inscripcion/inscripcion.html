@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inscripción</title>
+</head>
+<body>
+    <h2>FORMULARIO DE INSCRIPCIÓN</h2>
+    <p>mediante este formulario podrá inscribirse a las distintas actividades que desarrollamos</p>
+    <form action="recogida.php" method="get">
+
+        <label for="nombre_inscripcion">Nombre: </label>
+            <input type="text" name="nombre_inscripcion" id="nombre_inscripcion" placeholder="Nombre" size="50">
+        
+        <label for="apellidos_inscripcion">Apellidos:</label>
+            <input type="text" name="apellidos_inscripcion" id="apellidos_inscripcion" placeholder="Apellidos" size="50">
+       
+        <label for="email_inscripcion">Email:</label>
+            <input type="email" name="email_inscripcion" id="email_inscripcion" placeholder="Email" size="50">
+        
+        <label for="telefono_inscripcion">Teléfono:</label>
+            <input type="tel" name="telefono_inscripcion" id="telefono_inscripcion" placeholder="Teléfono" size="9">
+
+        <label for="direccion_inscripcion">Dirección:</label>
+            <input type="text" name="direccion_inscripcion" id="direccion_inscripcion" placeholder="Dirección" size="100">
+   
+        <label for="cp_inscripcion">Código postal:</label>
+            <input type="text" name="cp_inscripcion" id="cp_inscripcion" placeholder="Código postal" size="5">
+
+        <label for="poblacion_inscripcion">Población:</label>
+            <input type="text" name="poblacion_inscripcion" id="poblacion_inscripcion" placeholder="Población" size="50">
+     
+        <label for="pais_inscripcion">País</label>
+            <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" size="20" value="España">
+      
+        <label for="actividad_inscripcion">Actividad:</label>
+            <input type="text" name="actividad_inscripcion" id="actividad_inscripcion" placeholder="Actividad" size="50">
+    
+    </form>
+</body>
+</html>

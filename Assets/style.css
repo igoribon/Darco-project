@@ -1,0 +1,52 @@
+*   {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+a   {text-decoration: none; color: rgb(0, 0, 0)}
+    
+header{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+nav div{
+    background-color: rgb(203, 226, 218);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h4{
+    text-decoration: underline;
+    margin: 2rem;
+    padding: 0.5rem 0.5rem;
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+.who{
+    text-align: center;
+}
+.staff{
+    display: flex;
+}
+.profe{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem 0;
+}
+.profe img{
+    width: 4rem;
+}
+.calendario{
+    margin-left: 1rem;
+    height: 5rem;
+    font-size: 1.5rem;
+}
+.prx{
+    display: flex;
+}
