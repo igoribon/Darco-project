@@ -7,14 +7,20 @@
     img{
    
 width: 90%;
-height: 90%;
+height: 100%;
 object-fit: cover;
+border-radius: 1rem;
+margin-top: 0.6rem;
+margin-bottom: 0.6rem;
+margin-left: 0.4rem;
 }
 }
 
 .global{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+    row-gap: 0.6rem;
 }
 
 .evento-1, .evento-2 , .evento-3{
@@ -22,4 +28,65 @@ object-fit: cover;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+/*stilos commun */
+h2{
+    font-size: 1.5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 2rem;
+}  
+
+.evento-1 h3, .evento-2 h3, .evento-3 h3{
+
+    font-size: 1.3rem;
+    margin-top: -1rem;
+    font-weight: bold;
+    margin-bottom: -2rem;
+}
+
+ul li{
+    text-align: justify;
+    width: 100%;
+    font-size: 0.9rem;
+    width: 95%;
+    margin-top: 1rem;
+    padding-top: -2rem;
+
+    span{
+        font-weight: bold;
+    }
+}
+
+.programa-1, .programa-2, .programa-3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+}
+/*stilos commun */
+
+.programa-1, .programa-2, .programa-3{
+    i {
+        margin-right: 0.7rem;
+        margin-left: 0.2rem;
+    }
+    }
+
+.fecha {
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transition: transform 0.3 ease;
+        z-index: 1;
+        background-color:rgba(173, 216, 230, 0.5);
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+.fecha:hover{
+    transform: scale(1.4);
 }

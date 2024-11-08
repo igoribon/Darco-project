@@ -10,7 +10,18 @@ header{
     background-color: aqua;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    height: 5rem;
+}
+.logo{
+    
+}
+header label{
+    display: flex;
+    margin: 0.3rem 0;
+}
+header label input{
+    margin: 0 1rem;
 }
 nav div{
     background-color: rgb(203, 226, 218);
@@ -18,35 +29,88 @@ nav div{
     flex-wrap: wrap;
     justify-content: space-around;
 }
-h4{
-    text-decoration: underline;
-    margin: 2rem;
-    padding: 0.5rem 0.5rem;
+footer {
+    background-color: brown;
+    height: 5rem;
+}
+h1{
+    display: flex;
+    align-items: center;
 }
 h3{
     text-align: center;
     font-size: 2rem;
     padding: 2rem 0;
 }
+h4{
+    text-decoration: underline;
+    margin: 2rem;
+    padding: 0.5rem 0.5rem;
+}
+h5{
+    font-size: 1.5rem;
+}
+h6{
+    font-size: 1rem;
+    margin: 1rem 2rem;
+}
 .who{
     text-align: center;
 }
 .staff{
     display: flex;
+    justify-content: center;
+}
+.staff img{
+    height: 8rem;
+    width: 8rem;
 }
 .profe{
     text-align: center;
     margin: 1rem;
     padding: 1rem 0;
 }
-.profe img{
-    width: 4rem;
+.date{
+    display: flex;
 }
 .calendario{
     margin-left: 1rem;
+    margin-top: 2rem;
     height: 5rem;
     font-size: 1.5rem;
 }
-.prx{
+.prx_ev{
+    margin: 0 2rem;
+    text-align: center;
+}
+.overf{
+    width: 90%;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+.eve{
+    padding: 2rem 0;
     display: flex;
+    justify-content: center;
+    max-height: 250px;
+    width: 1000px;
+}
+.ult_ev{
+    text-align: center;
+    width: 500px;
+}
+.vid_int{
+    margin: 0 30%;
+}
+.faq{
+    background-color: rgb(146, 247, 247);
+}
+.faq_box{
+    height: 10rem;
+    overflow: scroll;
+    border-top: 2px solid black;
+    margin: 0 2rem;
+}
+.faq p, .faq li{
+    margin: 0 2rem;
 }

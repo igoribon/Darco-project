@@ -4,27 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="/Assets/style.css">
 </head>
 <body>
+    <header>
+        <h1>Orión Getxo</h1>
+        <img src="" alt="logo">
+        <form action="">
+            <label><input type="text"></label>
+            <label><input type="text"></label>
+        </form>
+    </header>
+<nav>
+    <div>
+        <h4><a href="/actividades/Actividad">Actividades</a></h4>
+        <h4><a href="/eventos/eventos.html">Eventos</a></h4>
+        <h4><a href="/index.html">Home</a></h4>
+        <h4><a href="/noticias/noticias.html">Noticias</a></h4>
+        <h4><a href="/Testimonios/testimonio.html">Testimonio</a></h4>
+        <h4><a href="/galeria/galeria">Galería</a></h4>
+        <h4><a href="/contacto/contacto.html">Contacto</a></h4>
+        <h4><a href="#FAQ">FAQ</a></h4>
+        <h4><a href="/inscripcion/inscripcion.html">Inscripción</a></h4>
+    </div>
+</nav>
     <h2>FORMULARIO DE CONTACTO</h2>
-    <P>Use este formulario para poenrse en contacto con nosotros y transmitirnos sus inquietudes, preguntas, etc. Le responderemos lo antes posible.</P>
+    <h5>Use este formulario para ponerse en contacto con nosotros y transmitirnos sus inquietudes, preguntas, etc. Le responderemos lo antes posible.</h5>
     <form action="recogida.php" method="get">
 
         <label for="nombre_contacto">Nombre:</label>
-            <input type="text" name="nombre_contacto" id="nombre_contacto" placeholder="Nombre" size="50">
+            <input type="text" name="nombre_contacto" id="nombre_contacto" placeholder="Nombre" size="50"><br>
       
         <label for="apellidos_contacto">Apellidos:</label>
-            <input type="text" name="apellidos_contacto" id="apellidos_contacto" placeholder="Apellidos" size="50">
+            <input type="text" name="apellidos_contacto" id="apellidos_contacto" placeholder="Apellidos" size="50"><br>
    
         <label for="email_contacto">Email:</label>
-            <input type="email" name="email_contacto" id="email_contacto" placeholder="Email" size="50">
+            <input type="email" name="email_contacto" id="email_contacto" placeholder="Email" size="50"><br>
  
         <label for="telefono_contacto">Teléfono</label>
-            <input type="number" name="telefono_contacto" id="telefono_contacto" placeholder="Teléfono" size="9">
+            <input type="number" name="telefono_contacto" id="telefono_contacto" placeholder="Teléfono" size="9"><br>
    
         <label for="comentario_contacto">Comentario:</label>
-            <textarea name="comentario_contacto" id="comentario_contacto">Comentarios</textarea>
-        <label for=""></label>
+            <textarea name="comentario_contacto" id="comentario_contacto">Comentarios</textarea><br>
+        
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>

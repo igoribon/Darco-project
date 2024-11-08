@@ -4,38 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de inscripción</title>
+    <link rel="stylesheet" href="../Assets/style.css">
+    <link rel="stylesheet" href="css/inscripcion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <header>
+        <h1>Orión Getxo</h1>
+        <img src="" alt="logo">
+        <form action="">
+            <label><input type="text"></label>
+            <label><input type="text"></label>
+        </form>
+    </header>
+<nav>
+    <div>
+        <h4><a href="/actividades/Actividad">Actividades</a></h4>
+        <h4><a href="/eventos/eventos.html">Eventos</a></h4>
+        <h4><a href="/index.html">Home</a></h4>
+        <h4><a href="/noticias/noticias.html">Noticias</a></h4>
+        <h4><a href="/Testimonios/testimonio.html">Testimonio</a></h4>
+        <h4><a href="/galeria/galeria">Galería</a></h4>
+        <h4><a href="/contacto/contacto.html">Contacto</a></h4>
+        <h4><a href="#FAQ">FAQ</a></h4>
+        <h4><a href="/inscripcion/inscripcion.html">Inscripción</a></h4>
+    </div>
+</nav>
     <h2>FORMULARIO DE INSCRIPCIÓN</h2>
-    <p>mediante este formulario podrá inscribirse a las distintas actividades que desarrollamos</p>
-    <form action="recogida.php" method="get">
+
+    <h5>Mediante este formulario podrá inscribirse a las distintas actividades que desarrollamos</h5>
+    <form action="inscripción.php" method="get">
 
         <label for="nombre_inscripcion">Nombre: </label>
-            <input type="text" name="nombre_inscripcion" id="nombre_inscripcion" placeholder="Nombre" size="50">
+            <input type="text" name="nombre_inscripcion" id="nombre_inscripcion" placeholder="Nombre" size="50"> <br>
         
         <label for="apellidos_inscripcion">Apellidos:</label>
-            <input type="text" name="apellidos_inscripcion" id="apellidos_inscripcion" placeholder="Apellidos" size="50">
+            <input type="text" name="apellidos_inscripcion" id="apellidos_inscripcion" placeholder="Apellidos" size="50"><br>
        
         <label for="email_inscripcion">Email:</label>
-            <input type="email" name="email_inscripcion" id="email_inscripcion" placeholder="Email" size="50">
+            <input type="email" name="email_inscripcion" id="email_inscripcion" placeholder="Email" size="50"><br>
         
         <label for="telefono_inscripcion">Teléfono:</label>
-            <input type="tel" name="telefono_inscripcion" id="telefono_inscripcion" placeholder="Teléfono" size="9">
+            <input type="tel" name="telefono_inscripcion" id="telefono_inscripcion" placeholder="Teléfono" size="9"><br>
 
         <label for="direccion_inscripcion">Dirección:</label>
-            <input type="text" name="direccion_inscripcion" id="direccion_inscripcion" placeholder="Dirección" size="100">
+            <input type="text" name="direccion_inscripcion" id="direccion_inscripcion" placeholder="Dirección" size="50"><br>
    
         <label for="cp_inscripcion">Código postal:</label>
-            <input type="text" name="cp_inscripcion" id="cp_inscripcion" placeholder="Código postal" size="5">
+            <input type="text" name="cp_inscripcion" id="cp_inscripcion" placeholder="Código postal" size="5"><br>
 
         <label for="poblacion_inscripcion">Población:</label>
-            <input type="text" name="poblacion_inscripcion" id="poblacion_inscripcion" placeholder="Población" size="50">
+            <input type="text" name="poblacion_inscripcion" id="poblacion_inscripcion" placeholder="Población" size="50"><br>
      
         <label for="pais_inscripcion">País</label>
-            <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" size="20" value="España">
+            <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" size="20" value="España"><br>
       
         <label for="actividad_inscripcion">Actividad:</label>
-            <input type="text" name="actividad_inscripcion" id="actividad_inscripcion" placeholder="Actividad" size="50">
+            <input type="text" name="actividad_inscripcion" id="actividad_inscripcion" placeholder="Actividad" size="50"><br>
+            
+        <h5>Métodos de pago</h5>
+         
+        <div class="metodo-pago">
+        <label for="pago1">Tarjeta de crédito
+            <input type="radio" name="pago_inscripcion" id="pago1" value="Tarjeta de crédito"  required>
+            <i class="fa-regular fa-credit-card"></i>
+        </label>
+        <label for="pago2">Domiciliación bancaria
+            <input type="radio" name="pago_inscripcion" id="pago2" value="Domiciliación bancaria">
+            <i class="fa-solid fa-building-columns"></i>
+        </label>
+        <label for="pago3">Paypal
+            <input type="radio" name="pago_inscripcion" id="pago3" value="Paypal">
+            <i class="fa-brands fa-paypal"></i>
+        </label>
+        </div>
+        <br>
+
+        <button type="reset">Cancelar</button>
+        <button type="submit">Enviar</button>
     
     </form>
 </body>
