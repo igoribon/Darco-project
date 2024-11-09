@@ -30,59 +30,68 @@
         <h4><a href="/inscripcion/inscripcion.html">Inscripción</a></h4>
     </div>
 </nav>
-    <h2>FORMULARIO DE INSCRIPCIÓN</h2>
-
-    <h5>Mediante este formulario podrá inscribirse a las distintas actividades que desarrollamos</h5>
+    <div class="titulo_inscripcion">
+         <h2>FORMULARIO DE INSCRIPCIÓN</h2> 
+    </div>
+  
+    <div class="texto_inscripcion">
+        <h5>Mediante este formulario podrá inscribirse a las distintas actividades que desarrollamos</h5>
+    </div>
+    
     <form action="inscripción.php" method="get">
 
-        <label for="nombre_inscripcion">Nombre: </label>
+        <label for="nombre_inscripcion"></label>
             <input type="text" name="nombre_inscripcion" id="nombre_inscripcion" placeholder="Nombre" size="50"> <br>
         
-        <label for="apellidos_inscripcion">Apellidos:</label>
+        <label for="apellidos_inscripcion"></label>
             <input type="text" name="apellidos_inscripcion" id="apellidos_inscripcion" placeholder="Apellidos" size="50"><br>
        
-        <label for="email_inscripcion">Email:</label>
+        <label for="email_inscripcion"></label>
             <input type="email" name="email_inscripcion" id="email_inscripcion" placeholder="Email" size="50"><br>
         
-        <label for="telefono_inscripcion">Teléfono:</label>
+        <label for="telefono_inscripcion"></label>
             <input type="tel" name="telefono_inscripcion" id="telefono_inscripcion" placeholder="Teléfono" size="9"><br>
 
-        <label for="direccion_inscripcion">Dirección:</label>
+        <label for="direccion_inscripcion"></label>
             <input type="text" name="direccion_inscripcion" id="direccion_inscripcion" placeholder="Dirección" size="50"><br>
    
-        <label for="cp_inscripcion">Código postal:</label>
-            <input type="text" name="cp_inscripcion" id="cp_inscripcion" placeholder="Código postal" size="5"><br>
+        <label for="cp_inscripcion"></label>
+            <input type="text" name="cp_inscripcion" id="cp_inscripcion" placeholder="Código postal" size="15"><br>
 
-        <label for="poblacion_inscripcion">Población:</label>
+        <label for="poblacion_inscripcion"></label>
             <input type="text" name="poblacion_inscripcion" id="poblacion_inscripcion" placeholder="Población" size="50"><br>
      
-        <label for="pais_inscripcion">País</label>
+        <label for="pais_inscripcion"></label>
             <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" size="20" value="España"><br>
       
-        <label for="actividad_inscripcion">Actividad:</label>
+        <label for="actividad_inscripcion"></label>
             <input type="text" name="actividad_inscripcion" id="actividad_inscripcion" placeholder="Actividad" size="50"><br>
-            
-        <h5>Métodos de pago</h5>
-         
+        
+        </label>
+        <label for="rgpd">Acepto las <a href="../rgpd/rgpd.html" target="_blank"> políticas de privacidad</a>
+        <input type="checkbox" name="rgpd" id="rgpd">
+        </label>
+       
         <div class="metodo-pago">
+        <h5>Métodos de pago</h5><br>
         <label for="pago1">Tarjeta de crédito
-            <input type="radio" name="pago_inscripcion" id="pago1" value="Tarjeta de crédito"  required>
             <i class="fa-regular fa-credit-card"></i>
+            <input type="radio" name="pago_inscripcion" id="pago1" value="Tarjeta de crédito"  required>
         </label>
         <label for="pago2">Domiciliación bancaria
-            <input type="radio" name="pago_inscripcion" id="pago2" value="Domiciliación bancaria">
             <i class="fa-solid fa-building-columns"></i>
-        </label>
+            <input type="radio" name="pago_inscripcion" id="pago2" value="Domiciliación bancaria">
+                    </label>
         <label for="pago3">Paypal
-            <input type="radio" name="pago_inscripcion" id="pago3" value="Paypal">
             <i class="fa-brands fa-paypal"></i>
-        </label>
+            <input type="radio" name="pago_inscripcion" id="pago3" value="Paypal">
+
         </div>
         <br>
 
-        <button type="reset">Cancelar</button>
-        <button type="submit">Enviar</button>
-    
+        <button class="boton_cancelar" type="reset">Cancelar</button>
+        <button class="boton_envair" type="submit">Enviar</button>
+ 
     </form>
 </body>
 </html>
