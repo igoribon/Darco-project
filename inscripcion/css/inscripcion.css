@@ -1,35 +1,42 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 .titulo_inscripcion {margin-top: 1rem;
-                    margin-bottom: 1rem;}
+                    margin-bottom: 1rem;
+                margin-left: 1rem;}
 
 .texto_inscripcion {margin-top: 1rem;
-                    margin-bottom: 1rem;}
+                    margin-bottom: 1rem;
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                max-width: 80%;}
 
-.metodo-pago {max-width: 60%;
+.titulo_pago {margin-top: 2rem;}
+
+.metodo-pago {max-width: 90%;
             display: flex;
             justify-content: space-around;
-            margin-top: 5rem;
-            }
+           }
 
-.iconos-pago {max-width: 60%;
-            display: flex;
-            justify-content: flex-start;
-        }
+.botones {display: flex;
+        justify-content: center;
+         }
+label {
+    font-size: 1.5rem;}
 
-label {display: inline-block;
-    width: 2000px;
-font-size: 1.5rem;}
-
-input {font-size: 2rem;}
+main form input {font-size: 2rem;
+margin-left: 1rem;
+margin-right: 0.2rem;
+margin-bottom: 1rem;}
 
 button {font-size: 1.5rem;
-width: 8rem;
-height: 2rem;
-border-radius: 5%;}
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5%;
+    margin-bottom: 1rem;
+    }
 
 .boton_cancelar {background-color: black;
                 color: white;}

@@ -11,29 +11,36 @@ header{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    height: 5rem;
-}
-.logo{
-    
+    height: 7rem;
+    border-radius: 0 0 2rem 2rem;
 }
 header label{
     display: flex;
-    margin: 0.3rem 0;
+    margin: 0.7rem 2rem -0.3rem 1rem;
 }
-header label input{
-    margin: 0 1rem;
+.submit{
+    justify-content: flex-end;
+}
+.button{
+    padding: 0.3rem;
+    font-size: 0.9rem;
+    background-color: rgb(209, 204, 204);
+    border: 0.1rem solid gray;
+    border-radius: 0.6rem;
 }
 nav div{
     background-color: rgb(203, 226, 218);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    text-align: center;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 1fr;
+    border-radius: 2rem;
 }
-footer {
-    background-color: brown;
-    height: 5rem;
+.home{
+    text-align: center;
+    grid-area: 3 / 4 / 4 / 2;
 }
 h1{
+    margin-left: 1rem;
     display: flex;
     align-items: center;
 }
@@ -54,14 +61,21 @@ h6{
     font-size: 1rem;
     margin: 1rem 2rem;
 }
+.Q{
+    background-color: cadetblue;
+    border-radius: 2rem;
+}
 .who{
     text-align: center;
 }
 .staff{
     display: flex;
     justify-content: center;
+    background-color: cadetblue;
+    border-radius: 2rem;
 }
 .staff img{
+    border-radius: 0 4rem;
     height: 8rem;
     width: 8rem;
 }
@@ -72,12 +86,16 @@ h6{
 }
 .date{
     display: flex;
+    background-color: cadetblue;
+    border-radius: 2rem;
 }
 .calendario{
     margin-left: 1rem;
     margin-top: 2rem;
     height: 5rem;
     font-size: 1.5rem;
+    background-color: cadetblue;
+    border-radius: 2rem;
 }
 .prx_ev{
     margin: 0 2rem;
@@ -87,6 +105,8 @@ h6{
     width: 90%;
     overflow-x: scroll;
     margin: 0 auto;
+    background-color: cadetblue;
+    border-radius: 2rem;
 }
 .eve{
     padding: 2rem 0;
@@ -99,11 +119,25 @@ h6{
     text-align: center;
     width: 500px;
 }
+.caru{
+    padding: 2rem 5rem;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    gap: 5px
+}
+.caru img{
+    height: 20rem;
+    scroll-snap-align: center;
+    border-radius: 15px;
+}
 .vid_int{
-    margin: 0 30%;
+    margin: 2rem 30%;
+    border-radius: 2rem;
 }
 .faq{
     background-color: rgb(146, 247, 247);
+    border-radius: 2rem;
 }
 .faq_box{
     height: 10rem;
@@ -113,4 +147,22 @@ h6{
 }
 .faq p, .faq li{
     margin: 0 2rem;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(43, 70, 88);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 5rem;
+    border-radius: 2rem 2rem 0 0;
+}
+footer div{
+    padding: 0 2rem;
+}
+.fotsec img{
+    margin: 0.5rem;
+    height: 2rem;
+    margin: 0.2rem;
 }
