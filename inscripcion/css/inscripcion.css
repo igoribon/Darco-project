@@ -30,6 +30,7 @@ margin-left: 1rem;
 margin-right: 0.2rem;
 margin-bottom: 1rem;}
 
+
 button {font-size: 1.5rem;
     width: 8rem;
     height: 2rem;
@@ -61,10 +62,10 @@ button {font-size: 1.5rem;
     
     .titulo_pago {margin-top: 2rem;}
 
-    .metodo-pago {font-size: 2rem;
+    .metodo-pago {font-size: 1.5rem;
             max-width: 90%;
             display: flex;
-            justify-content: space-around;
+            justify-content: flex-start
                   }
        
 
