@@ -1,0 +1,16 @@
+.equipo {display: flex;
+        justify-content:flex-start;
+        margin: 2rem;
+        align-items: center;
+        }
+
+main h5 {margin: 0.5rem}
+
+main p {margin-left: 0.5rem;
+        font-size: 1.5rem;
+        text-align: justify;}
+
+.equipo p a {color: pink;}
+
+.equipo p a:visited {color: violet;}
+

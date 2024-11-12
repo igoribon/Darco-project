@@ -22,9 +22,8 @@
 
 .botones {display: flex;
         justify-content: center;
+        gap: 1rem;
          }
-label {
-    font-size: 1.5rem;}
 
 main form input {font-size: 2rem;
 margin-left: 1rem;
@@ -35,8 +34,38 @@ button {font-size: 1.5rem;
     width: 8rem;
     height: 2rem;
     border-radius: 5%;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
     }
 
 .boton_cancelar {background-color: black;
                 color: white;}
+
+@media screen and (min-width: 1080px) {
+    .metodo-pago {max-width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+       }
+
+
+    .botones {display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+         }
+    
+    main form input {font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 0.2rem;
+        margin-bottom: 2rem;
+       }  
+    
+    .titulo_pago {margin-top: 2rem;}
+
+    .metodo-pago {font-size: 2rem;
+            max-width: 90%;
+            display: flex;
+            justify-content: space-around;
+                  }
+       
+
+}

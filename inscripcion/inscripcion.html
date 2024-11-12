@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+        <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../Assets/style.css">
     <link rel="stylesheet" href="css/inscripcion.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="img/icon"  href="../Assets/img_index/logo.png">
 </head>
 <body>
     <header>
@@ -19,7 +20,9 @@
         </form>
     </header>
     <nav>
-        <div>
+        <label id="lab" for="butt"><span class="ham">&#9776;</span></label>
+        <input id="butt" type="checkbox">
+        <div id="navi">
             <h4><a href="/actividades/Actividad">Actividades</a></h4>
             <h4><a href="/eventos/eventos.html">Eventos</a></h4>
             <h4><a href="/noticias/noticias.html">Noticias</a></h4>
@@ -64,13 +67,13 @@
             <input type="text" name="poblacion_inscripcion" id="poblacion_inscripcion" placeholder="Población">
      
         <label for="pais_inscripcion"></label>
-            <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" size="20" value="España">
+            <input type="text" name="pais_inscripcion" id="pais_inscripcion" placeholder="País" value="España">
       
         <label for="actividad_inscripcion"></label>
             <input type="text" name="actividad_inscripcion" id="actividad_inscripcion" placeholder="Actividad">
         
         </label><br>
-        <input type="checkbox" name="rgpd" id="rgpd">
+        <input type="checkbox" name="rgpd" id="rgpd" required>
         <label for="rgpd">Acepto las <a href="../rgpd/rgpd.html" target="_blank"> <b>políticas de privacidad</b></a>
         </label><br>
        
@@ -87,7 +90,7 @@
             <input type="radio" name="pago_inscripcion" id="pago2" value="Domiciliación bancaria">
             <i class="fa-solid fa-building-columns"></i>
         </label>
-        <label for="pago3">Paypal<br>
+        <label for="pago3">Paypal<br><br>
             <input type="radio" name="pago_inscripcion" id="pago3" value="Paypal">
             <i class="fa-brands fa-paypal"></i>
         </label>
@@ -100,20 +103,24 @@
     </form>
 </main>
 <footer>
-    <div class="fotsec">
+    <div>
         <p>UBICAICIÓN</p>
         <p>48993, Fadura, Getxo, Bizkaia</p>
     </div>
     <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
     <div class="fotsec">
         <p>RRSS</p>
-        <a href="&"><img src="" alt="Instragram"></a>
-        <a href="&"><img src="" alt="Twitter"></a>
-        <a href="&"><img src="" alt="Facebook"></a>
+        <div>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/240px-Instagram_logo_2022.svg.png" alt="Instragram"></a>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png" alt="Twitter"></a>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/240px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
+        </div>
     </div>
-    <div class="fotsec">
-        <p>ABOUT</p>
-        <p></p>
+    <div class="legal">
+        <a href="/about/about.html">ABOUT</a>
+    </div>
+    <div class="legal">
+        <a href="/rgpd/rgpd.html">RGPD</a>
     </div>
 </footer>
 </body>

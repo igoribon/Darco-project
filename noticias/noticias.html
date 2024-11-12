@@ -3,90 +3,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="noticias.css">
     <link rel="stylesheet" href="/Assets/style.css">
-    <style>
-        
-    
-/**Cuerpo**/
-/**body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-    margin: 0;
-    padding: 0;}
-/**Contenedores de Noticias**/
-/**.contenedores {
-    width: 80%;
-    margin: 2rem auto;
-    display: grid;}
-/**Contenedores de parrafon y h3**/
-/**.card {
-    background-color: #d6cdc3;
-    padding: 2rem;
-    border-radius: 1rem;}
-/**titulo de sub noticias**/
-/**.card h3 {
-    font-size: 1.75rem;
-    color: #5E318B;
-    margin-bottom: 1rem;
-}
-/**Boton de leer Mas**/
-/**button {
-    padding: 0.75rem 2rem;
-    font-size: 1rem;
-    color: white;
-    background-color: #5E318B;
-    border-radius: 0.5rem;}**/
-    </style>
-
 </head>
 <body>
     <header>
         <h1>Orión Getxo</h1>
-        <img src="" alt="logo">
+        <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
         <form action="">
-            <label><input type="text"></label>
-            <label><input type="text"></label>
+            <label>User<input type="text"></label>
+            <label>Pass<input type="text"></label>
+            <label class="submit"><input type="submit" value="Entrar" class="button"></label>
         </form>
     </header>
     <nav>
-        <div>
+        <label id="lab" for="butt"><span class="ham">&#9776;</span></label>
+        <input id="butt" type="checkbox">
+        <div id="navi">
             <h4><a href="/actividades/Actividad">Actividades</a></h4>
             <h4><a href="/eventos/eventos.html">Eventos</a></h4>
-            <h4><a href="/index.html">Home</a></h4>
             <h4><a href="/noticias/noticias.html">Noticias</a></h4>
-            <h4><a href="">FAQ</a></h4>
+            <h4><a href="/Testimonios/testimonio.html">Testimonio</a></h4>
             <h4><a href="/galeria/galeria">Galería</a></h4>
             <h4><a href="/contacto/contacto.html">Contacto</a></h4>
             <h4><a href="/inscripcion/inscripcion.html">Inscripción</a></h4>
+            <h4><a href="#FAQ">FAQ</a></h4>
+            <h4 class="home"><a href="/index.html">Home</a></h4>
         </div>
     </nav>
+    <!-- Sección 1: Calendario de Competencia -->
     <h2>Noticias</h2>
-<main>   
-    <div class="contenedores">
-        <div class="card">
-            <h3>Calendario de Competencia</h3>
-     
-        </div>
-        <div class="card">
-            <h3>Nuestra Liga Interna</h3>
-            
-        </div>
-
-        <div class="card">
-            <h3>Criterios de Competición</h3>
-          <p>
-            Manu Álvarez, director deportivo de la Federación Vasca de Tiro con Arco, 
-            nos ha hecho llegar el documento con los criterios de selección que se aplicarán <br> a la hora de elegir participantes para los equipos vascos que competirán a nivel estatal. 
-            Dicho documento lo podéis descargar desde el enlace de este mismo artículo.
-          </p>
-        </div>
-
-        <div class="card">
-            <h3>Instalaciones</h3>
-           
+<main> 
+<div class="contenedor">  
+    <div class="noticia">
+        <h3>Calendario de Competencia</h3>
+        <img src="assets_noticas/calendario_competencia.jpg" alt="Calendario de Competencia"> <br><br>
+           <p class="overflow">
+            Aquí puedes ver el calendario completo de nuestras competencias. En este calendario se incluyen todos los partidos, fechas y horarios de las competiciones organizadas por nuestra liga interna. Cada encuentro tiene su respectivo día y hora, por lo que te sugerimos estar atento a las actualizaciones que podrían surgir durante la temporada. El calendario también muestra las diferentes fases del torneo, incluyendo los octavos de final, cuartos de final, semifinales y la gran final.
+            <br><br>
+            Recuerda que las competiciones se actualizan semanalmente, y cualquier cambio será informado con suficiente antelación. Para más información, sigue revisando nuestras actualizaciones diarias y permanece al tanto de los eventos importantes. La planificación está diseñada para que todos los equipos puedan tener el tiempo necesario de preparación antes de cada partido.
+            </p>
     </div>
+     
+    <!-- Sección 2: Nuestra Liga Interna -->
+    <div class="noticia">
+        <h3>Nuestra Liga Interna</h3>
+        <img class="noticias"  src="assets_noticas/nuestra_liga.jpg" alt="Nuestra Liga Interna"><br><br>
+        <p class="overflow">
+          La Liga Interna está formada por equipos locales que compiten entre sí en una serie de partidos organizados cada mes. El objetivo de la liga es fomentar el compañerismo, la competencia sana y el desarrollo del talento en cada uno de los jugadores que participan. Todos los equipos están compuestos por jugadores de nuestra comunidad, y los partidos se juegan en nuestras instalaciones deportivas.
+          <br><br>
+           Los jugadores tienen la oportunidad de mejorar sus habilidades mientras disfrutan de un ambiente competitivo pero amistoso. Cada equipo es evaluado semanalmente para asegurar un buen desempeño y se otorgan premios al final de cada temporada para reconocer el esfuerzo y la dedicación.
+           </p>
+    </div>
+    <!-- Sección 3: Criterios de Competición -->
+    <div class="noticia">
+        <h3>Criterios de Competición</h3>
+        <img class="noticias" src="assets_noticas/criterios.competicion.jpg" alt="Criterios de Competición"><br><br>
+        <p class="overflow">
+            Los criterios de competición son estrictos y están diseñados para asegurar que cada partido sea jugado con el máximo nivel de integridad y espíritu deportivo. Entre los criterios más importantes se encuentran el respeto entre los jugadores, la puntualidad en los partidos, y el cumplimiento de las reglas del juego establecidas por los organizadores.
+            <br><br>
+            Cada jugador debe estar familiarizado con las reglas antes de comenzar a jugar. Los árbitros están entrenados para hacer cumplir estas reglas de manera imparcial, y cualquier incumplimiento puede resultar en sanciones, desde amonestaciones hasta la descalificación del torneo, dependiendo de la gravedad del incidente.
+        </p>
+     </div>
+
+        <!-- Sección 4: Instalaciones -->
+    <div class="noticia">
+        <h3>Instalaciones</h3>
+        <img class="noticias"  src="assets_noticas/instalaciones.jpg" alt="Instalaciones"><br><br>
+        <p class="overflow">
+          Nuestras instalaciones deportivas están diseñadas para ofrecer la mejor experiencia a todos los participantes y espectadores. Contamos con campos de fútbol de césped natural, canchas de baloncesto, pistas de atletismo, y mucho más. Cada espacio está equipado con todas las comodidades necesarias, como vestuarios, áreas de descanso, y gradas para los espectadores.
+          <br><br>
+          El mantenimiento de las instalaciones es una de nuestras prioridades, y constantemente estamos trabajando para asegurarnos de que cada área esté en perfectas condiciones para su uso. Además, ofrecemos alquiler de espacios para eventos especiales y torneos externos.
+        </p>
+    </div>
+</div>
 </main>
 
+<footer>
+    <div>
+        <p>UBICAICIÓN</p>
+        <p>48993, Fadura, Getxo, Bizkaia</p>
+    </div>
+    <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
+    <div class="fotsec">
+        <p>RRSS</p>
+        <div>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/240px-Instagram_logo_2022.svg.png" alt="Instragram"></a>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png" alt="Twitter"></a>
+        <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/240px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
+        </div>
+    </div>
+    <div class="legal">
+        <a href="/about/about.html">ABOUT</a>
+    </div>
+    <div class="legal">
+        <a href="/rgpd/rgpd.html">RGPD</a>
+    </div>
+</footer>
        
     
 </body>

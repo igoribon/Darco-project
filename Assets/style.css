@@ -3,9 +3,14 @@
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-
 a   {text-decoration: none; color: rgb(0, 0, 0)}
-    
+:root{
+    --menu: rgb(133, 223, 188);
+    --campo: ;
+}
+body{
+    background-color: ;
+}
 header{
     background-color: aqua;
     text-align: center;
@@ -28,16 +33,33 @@ header label{
     border: 0.1rem solid gray;
     border-radius: 0.6rem;
 }
-nav div{
-    background-color: rgb(203, 226, 218);
+.home{
+    text-align: center;
+    grid-area: 3 / 4 / 4 / 2;
+}
+#butt{
+    display: none;
+}
+#lab{
+    background-color: rgb(71, 104, 104);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+.ham{
+    color: black;
+    margin-right: 3rem;
+}
+#butt:checked ~ #navi{
+    background-color: var(--menu);
     text-align: center;
     display: grid;
     grid-template: 1fr / 1fr 1fr 1fr 1fr;
     border-radius: 2rem;
 }
-.home{
-    text-align: center;
-    grid-area: 3 / 4 / 4 / 2;
+#navi{
+    display: none;
 }
 h1{
     margin-left: 1rem;
@@ -62,17 +84,21 @@ h6{
     margin: 1rem 2rem;
 }
 .Q{
-    background-color: cadetblue;
+    background-color: var(--campo);
     border-radius: 2rem;
 }
 .who{
     text-align: center;
 }
 .staff{
+    background-color: var(--campo);
     display: flex;
     justify-content: center;
-    background-color: cadetblue;
-    border-radius: 2rem;
+    border-radius: 0 0 2rem 2rem;
+}
+main h3{
+    background-color: var(--campo);
+    border-radius: 2rem 2rem 0 0 ;
 }
 .staff img{
     border-radius: 0 4rem;
@@ -86,8 +112,8 @@ h6{
 }
 .date{
     display: flex;
-    background-color: cadetblue;
-    border-radius: 2rem;
+    background-color: var(--campo);
+    border-radius: 0 0 2rem 2rem;
 }
 .calendario{
     margin-left: 1rem;
@@ -105,8 +131,8 @@ h6{
     width: 90%;
     overflow-x: scroll;
     margin: 0 auto;
-    background-color: cadetblue;
-    border-radius: 2rem;
+    background-color: var(--campo);
+    border-radius: 0 0 2rem 2rem;
 }
 .eve{
     padding: 2rem 0;
@@ -132,12 +158,15 @@ h6{
     border-radius: 15px;
 }
 .vid_int{
-    margin: 2rem 30%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
     border-radius: 2rem;
 }
 .faq{
     background-color: rgb(146, 247, 247);
     border-radius: 2rem;
+    margin-bottom: 5rem;
 }
 .faq_box{
     height: 10rem;
@@ -152,17 +181,75 @@ h6{
 /*Footer*/
 footer {
     background-color: rgb(43, 70, 88);
+    width: 100%;
+    color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     height: 5rem;
-    border-radius: 2rem 2rem 0 0;
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: white;
 }
 footer div{
     padding: 0 2rem;
+}
+.fotsec div{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 -2rem;
 }
 .fotsec img{
     margin: 0.5rem;
     height: 2rem;
     margin: 0.2rem;
+}
+.legal{
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width: 1080px){
+    .list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 22rem;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    #lab{
+        display: none;
+    }
+    #navi{
+        display: flex;
+        justify-content: center;
+        background-color: var(--menu);
+        border-radius: 2rem;
+    }
+    .desk{
+        display: flex;
+        align-items: center;
+    }
+    .vid_int{
+        position: absolute;
+        top: 35%;
+        right: 18%;
+        border-radius: 2rem;
+    }
+    .caru{
+        height: 20rem;
+        margin: 42rem 2rem 0 0;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 15rem;
+        width: 100%;
+    }
+   
 }

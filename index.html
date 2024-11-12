@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Club tiro con arco Getxo</title>
     <link rel="stylesheet" href="/Assets/style.css">
+    <link rel="icon" type="img/icon"  href="Assets/img_index/logo.png">
 </head>
 <body>
     <header>
@@ -17,7 +18,9 @@
         </form>
     </header>
     <nav>
-        <div>
+        <label id="lab" for="butt"><span class="ham">&#9776;</span></label>
+        <input id="butt" type="checkbox">
+        <div id="navi">
             <h4><a href="/actividades/Actividad">Actividades</a></h4>
             <h4><a href="/eventos/eventos.html">Eventos</a></h4>
             <h4><a href="/noticias/noticias.html">Noticias</a></h4>
@@ -30,11 +33,13 @@
         </div>
     </nav>
     <main>
+    <div class="desk">
+        <div>
         <div class="Q">
         <h3>¿Quiénes somos?</h3>
             <p class="who">Somos un club de amantes del tiro con arco, profesionales, deportistas, instructores y aficionados. Nuestro campo de tiro está en el polideportivo Fadura, junto a las pistas de atletismo y nos encantaría que te acercaras a probar con nosotros. </p>
         </div>
-            <h3>Profesionales</h3>
+        <h3>Profesionales</h3>
         <div class="staff">
             <div class="profe">
                 <img src="/Assets/img_index/monitora1.jpg" alt="Avatar">
@@ -65,33 +70,37 @@
         <div class="date">
             <label for="calendario"><input type="date" id="calendario" class="calendario"></label>
             <div class="prx_ev">
-                <h5>Próximo evento</h5>
-                <label for="">PONER FECHA</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa dolorem quibusdam aut nulla omnis hic cumque dolorum deleniti recusandae ratione velit iure, quod, assumenda et. Exercitationem architecto deleniti blanditiis!</p>
-            </div>
+                <h5><a href="/eventos/eventos.html#comp_int">Competiciones Internas</h5>
+                <p>17 y 18 de Noviembre</p>
+                <ul>
+                    <li><strong>Fomentar la Participación</strong>: Se busca incentivar la participación activa de todos los miembros del club, 
+                        especialmente aquellos que son nuevos en el deporte o tienen menos experiencia en competiciones.</li>
+                    <li><strong>Mejorar Habilidades:</strong> A través de la práctica y la competencia,
+                        se espera que los arqueros mejoren su técnica y precisión.</li>
+                </ul>
+                </div>
         </div>
             <div class="overf">
         <div class="eve">
             <div class="ult_ev">
-                <h5><a href="/eventos/eventos.html#comp_int">Último evento</a></h5>
-                <label for="">PONER FECHA</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa dolorem quibusdam aut nulla omnis hic cumque dolorum deleniti recusandae ratione velit iure, quod, assumenda et. Exercitationem architecto deleniti blanditiis!</p>
+                <h5><a href="/eventos/eventos.html#puer_abi">Dias de Puertas Abiertas</a></h5>
+                <p>18 de Noviembre</p>
+                <p>La jornada tiene como objetivo dar a conocer el 
+                    tiro con arco como una actividad recreativa y deportiva, destacando sus beneficios físicos y mentales.</p>
             </div>
             <div class="ult_ev">
-                <h5><a href="/eventos/eventos.html#puer_abi">Último evento</a></h5>
-                <label for="">PONER FECHA</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa dolorem quibusdam aut nulla omnis hic cumque dolorum deleniti recusandae ratione velit iure, quod, assumenda et. Exercitationem architecto deleniti blanditiis!</p>
-            </div>
-            <div class="ult_ev">
-                <h5><a href="/eventos/eventos.html#caza">Último evento</a></h5>
-                <label for="">PONER FECHA</label>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, ipsa dolorem quibusdam aut nulla omnis hic cumque dolorum deleniti recusandae ratione velit iure, quod, assumenda et. Exercitationem architecto deleniti blanditiis!</p>
+                <h5><a href="/eventos/eventos.html#caza">Simulaciones de caza</a></h5>
+                <p>30 de Noviembre</p>
+                <ul>
+                    <li>Promover el tiro con arco en situaciones de caza simulada.</li>
+                    <li>Educar sobre la ética y seguridad en la caza con arco.</li>
+                    <li>Proporcionar una experiencia realista de caza sin impacto ambiental.</li>
+                </ul>
             </div>
         </div>
             </div>
-        <div>
-            <video src="/Assets/img_index/intro.mp4" alt="Presentation_archery" controls width="300rem" class="vid_int"></video>
-        </div>
+    </div>
+        <video src="/Assets/img_index/intro.mp4" alt="Presentation_archery" controls width="300rem" class="vid_int"></video>
         <div class="caru">
             <img src="/eventos/assets_eventos/img_assets/Actividade-1.jpg" alt="Grupo de niños con arco junto a las dianas">
             <img src="/eventos/assets_eventos/img_assets/Actividade-3.jpg" alt="Prácticas de tiro">
@@ -99,95 +108,100 @@
             <img src="/eventos/assets_eventos/img_assets/Evento-2.jpg" alt="Grupo de arqueros">
             <img src="/eventos/assets_eventos/img_assets/Evento-1.jpg" alt="Grupo de niños practicando con arco">
         </div>
-        <div class="faq">
-            <h3>FAQ</h3>
-            <div>
-                <h6><a href="/index.html#start">¿Qué necesito para empezar en arquería?</a></h6>
-                <h6><a href="/index.html#exp">¿Es necesario tener experiencia previa?</a></h6>
-                <h6><a href="/index.html#clas">¿Ofrecen clases o entrenamientos?</a></h6>
-                <h6><a href="/index.html#age">¿Hay una edad mínima para practicar arquería?</a></h6>
-                <h6><a href="/index.html#tool">¿Puedo traer mi propio equipo de arquería?</a></h6>
-                <h6><a href="/index.html#sec">¿Cuáles son las reglas de seguridad del club?</a></h6>
-                <h6><a href="/index.html#cost">¿Cuáles son los costos de membresía y clases?</a></h6>
-                <h6><a href="/index.html#eve">¿Organizan competencias o eventos?</a></h6>
-                <h6><a href="/index.html#proof">¿Puedo hacer una clase de prueba antes de unirme?</a></h6>
-                <h6><a href="/index.html#insc">¿Cómo me inscribo en el club?</a></h6>
-                <h6><a href="/index.html#open">¿El club está abierto en todas las estaciones del año?</a></h6>
-                <h6><a href="/index.html#inf">¿Cómo puedo obtener más información?</a></h6>
-            </div>
-            <div class="faq_box">
-            <h6 id="start">¿Qué necesito para empezar en arquería?</h6>
-            <p>No necesitas equipo propio para comenzar. Ofrecemos clases para principiantes donde te proporcionaremos todo lo necesario: arco, flechas, protector de brazo y carcaj. Solo debes venir con ropa cómoda y ajustada para evitar que interfiera con el arco.</p>
-            
-            <h6 id="exp">¿Es necesario tener experiencia previa?</h6>
-            <p>No, nuestro club da la bienvenida a personas de todas las edades y niveles de habilidad, incluidos aquellos que nunca han disparado un arco. Contamos con instructores experimentados que te guiarán desde los fundamentos.</p>
-              
-            <h6 id="clas">¿Ofrecen clases o entrenamientos?</h6>
-            <p>Sí, ofrecemos clases para todas las edades y niveles. Tenemos:</p>
-            <ul>
-              <li>Clases para principiantes.</li>
-              <li>Entrenamiento intermedio y avanzado.</li>
-              <li>Sesiones de práctica libre para miembros.</li>
-            </ul>
-            <p>Puedes consultar nuestro calendario para ver los horarios y registrarte para una clase.</p>
-            
-            <h6 id="age">¿Hay una edad mínima para practicar arquería?</h6>
-            <p>Recomendamos que los niños tengan al menos 8 años para comenzar a practicar arquería, aunque esto depende de la capacidad del niño para manejar el equipo con seguridad. Para menores de edad, es necesario que un adulto esté presente durante la primera clase.</p>
-            
-            <h6 id="tool">¿Puedo traer mi propio equipo de arquería?</h6>
-            <p>Sí, puedes traer tu propio equipo, siempre y cuando cumpla con los estándares de seguridad del club. Antes de la práctica, un instructor revisará tu equipo para asegurarse de que esté en buenas condiciones.</p>
-            
-            <h6 id="sec">¿Cuáles son las reglas de seguridad del club?</h6>
-            <p>La seguridad es nuestra prioridad. Algunas de las reglas principales incluyen:</p>
-            <ul>
-              <li>No apuntar con el arco a ninguna persona.</li>
-              <li>Solo disparar cuando se haya dado la señal de "todo despejado".</li>
-              <li>Usar siempre protector de brazo y seguir las instrucciones del instructor.</li>
-            </ul>
-            <p>El incumplimiento de las normas de seguridad puede resultar en la expulsión del área de práctica.</p>
-            
-            <h6 id="cost">¿Cuáles son los costos de membresía y clases?</h6>
-            <p>Nuestros costos varían según el tipo de membresía:</p>
-            <ol>
-              <li>Membresía mensual: $50</li>
-              <li>Membresía anual: $500 (incluye acceso ilimitado al campo de tiro)</li>
-              <li>Clase para principiantes: $20 por sesión</li>
-              <li>Alquiler de equipo: $10 por día</li>
-            </ol>
-            <p>Para detalles adicionales sobre precios y promociones, visita la sección de membresía en nuestra página web.</p>
-            
-            <h6 id="eve">¿Organizan competencias o eventos?</h6>
-            <p>Sí, organizamos competencias internas y participamos en torneos regionales. Además, ofrecemos eventos sociales para los miembros del club, como noches de práctica libre y demostraciones de arquería tradicional.</p>
-            
-            <h6 id="proof">¿Puedo hacer una clase de prueba antes de unirme?</h6>
-            <p>Sí, ofrecemos una clase de prueba para que puedas experimentar la arquería antes de inscribirte. Esta clase tiene un costo reducido e incluye el alquiler del equipo.</p>
-            
-            <h6 id="insc">¿Cómo me inscribo en el club?</h6>
-            <p>Puedes inscribirte en persona en nuestras instalaciones o a través de nuestro sitio web. Te pediremos completar un formulario de inscripción y aceptar nuestro reglamento de seguridad.</p>
-            
-            <h6 id="open">¿El club está abierto en todas las estaciones del año?</h6>
-            <p>Sí, nuestro club permanece abierto durante todo el año. Contamos con un campo de tiro cubierto para practicar en invierno y en días lluviosos.</p>
-            
-            <h6 id="inf">¿Cómo puedo obtener más información?</h6>
-            <p>Puedes contactarnos a través de nuestro correo electrónico, teléfono o visitando nuestras instalaciones durante el horario de atención. También puedes seguirnos en nuestras redes sociales para actualizaciones y noticias del club.</p>            
-            </div>
-        </div>
+    </div>
     </main>
+    <div class="faq">
+        <h3>FAQ</h3>
+        <div class="list">
+            <h6><a href="/index.html#start">¿Qué necesito para empezar en arquería?</a></h6>
+            <h6><a href="/index.html#exp">¿Es necesario tener experiencia previa?</a></h6>
+            <h6><a href="/index.html#clas">¿Ofrecen clases o entrenamientos?</a></h6>
+            <h6><a href="/index.html#age">¿Hay una edad mínima para practicar arquería?</a></h6>
+            <h6><a href="/index.html#tool">¿Puedo traer mi propio equipo de arquería?</a></h6>
+            <h6><a href="/index.html#sec">¿Cuáles son las reglas de seguridad del club?</a></h6>
+            <h6><a href="/index.html#cost">¿Cuáles son los costos de membresía y clases?</a></h6>
+            <h6><a href="/index.html#eve">¿Organizan competencias o eventos?</a></h6>
+            <h6><a href="/index.html#proof">¿Puedo hacer una clase de prueba antes de unirme?</a></h6>
+            <h6><a href="/index.html#insc">¿Cómo me inscribo en el club?</a></h6>
+            <h6><a href="/index.html#open">¿El club está abierto en todas las estaciones del año?</a></h6>
+            <h6><a href="/index.html#inf">¿Cómo puedo obtener más información?</a></h6>
+        </div>
+        <div class="faq_box">
+        <h6 id="start">¿Qué necesito para empezar en arquería?</h6>
+        <p>No necesitas equipo propio para comenzar. Ofrecemos clases para principiantes donde te proporcionaremos todo lo necesario: arco, flechas, protector de brazo y carcaj. Solo debes venir con ropa cómoda y ajustada para evitar que interfiera con el arco.</p>
+        
+        <h6 id="exp">¿Es necesario tener experiencia previa?</h6>
+        <p>No, nuestro club da la bienvenida a personas de todas las edades y niveles de habilidad, incluidos aquellos que nunca han disparado un arco. Contamos con instructores experimentados que te guiarán desde los fundamentos.</p>
+          
+        <h6 id="clas">¿Ofrecen clases o entrenamientos?</h6>
+        <p>Sí, ofrecemos clases para todas las edades y niveles. Tenemos:</p>
+        <ul>
+          <li>Clases para principiantes.</li>
+          <li>Entrenamiento intermedio y avanzado.</li>
+          <li>Sesiones de práctica libre para miembros.</li>
+        </ul>
+        <p>Puedes consultar nuestro calendario para ver los horarios y registrarte para una clase.</p>
+        
+        <h6 id="age">¿Hay una edad mínima para practicar arquería?</h6>
+        <p>Recomendamos que los niños tengan al menos 8 años para comenzar a practicar arquería, aunque esto depende de la capacidad del niño para manejar el equipo con seguridad. Para menores de edad, es necesario que un adulto esté presente durante la primera clase.</p>
+        
+        <h6 id="tool">¿Puedo traer mi propio equipo de arquería?</h6>
+        <p>Sí, puedes traer tu propio equipo, siempre y cuando cumpla con los estándares de seguridad del club. Antes de la práctica, un instructor revisará tu equipo para asegurarse de que esté en buenas condiciones.</p>
+        
+        <h6 id="sec">¿Cuáles son las reglas de seguridad del club?</h6>
+        <p>La seguridad es nuestra prioridad. Algunas de las reglas principales incluyen:</p>
+        <ul>
+          <li>No apuntar con el arco a ninguna persona.</li>
+          <li>Solo disparar cuando se haya dado la señal de "todo despejado".</li>
+          <li>Usar siempre protector de brazo y seguir las instrucciones del instructor.</li>
+        </ul>
+        <p>El incumplimiento de las normas de seguridad puede resultar en la expulsión del área de práctica.</p>
+        
+        <h6 id="cost">¿Cuáles son los costos de membresía y clases?</h6>
+        <p>Nuestros costos varían según el tipo de membresía:</p>
+        <ol>
+          <li>Membresía mensual: $50</li>
+          <li>Membresía anual: $500 (incluye acceso ilimitado al campo de tiro)</li>
+          <li>Clase para principiantes: $20 por sesión</li>
+          <li>Alquiler de equipo: $10 por día</li>
+        </ol>
+        <p>Para detalles adicionales sobre precios y promociones, visita la sección de membresía en nuestra página web.</p>
+        
+        <h6 id="eve">¿Organizan competencias o eventos?</h6>
+        <p>Sí, organizamos competencias internas y participamos en torneos regionales. Además, ofrecemos eventos sociales para los miembros del club, como noches de práctica libre y demostraciones de arquería tradicional.</p>
+        
+        <h6 id="proof">¿Puedo hacer una clase de prueba antes de unirme?</h6>
+        <p>Sí, ofrecemos una clase de prueba para que puedas experimentar la arquería antes de inscribirte. Esta clase tiene un costo reducido e incluye el alquiler del equipo.</p>
+        
+        <h6 id="insc">¿Cómo me inscribo en el club?</h6>
+        <p>Puedes inscribirte en persona en nuestras instalaciones o a través de nuestro sitio web. Te pediremos completar un formulario de inscripción y aceptar nuestro reglamento de seguridad.</p>
+        
+        <h6 id="open">¿El club está abierto en todas las estaciones del año?</h6>
+        <p>Sí, nuestro club permanece abierto durante todo el año. Contamos con un campo de tiro cubierto para practicar en invierno y en días lluviosos.</p>
+        
+        <h6 id="inf">¿Cómo puedo obtener más información?</h6>
+        <p>Puedes contactarnos a través de nuestro correo electrónico, teléfono o visitando nuestras instalaciones durante el horario de atención. También puedes seguirnos en nuestras redes sociales para actualizaciones y noticias del club.</p>            
+        </div>
+    </div>
     <footer>
-        <div class="fotsec">
-            <p>UBICAICIÓN</p>
+        <div>
+            <p>UBICACIÓN</p>
             <p>48993, Fadura, Getxo, Bizkaia</p>
         </div>
         <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
         <div class="fotsec">
             <p>RRSS</p>
+            <div>
             <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/240px-Instagram_logo_2022.svg.png" alt="Instragram"></a>
             <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png" alt="Twitter"></a>
             <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/240px-2021_Facebook_icon.svg.png" alt="Facebook"></a>
+            </div>
         </div>
-        <div class="fotsec">
-            <p>ABOUT</p>
-            <p></p>
+        <div class="legal">
+            <a href="/about/about.html">ABOUT</a>
+        </div>
+        <div class="legal">
+            <a href="/rgpd/rgpd.html">RGPD</a>
         </div>
     </footer>
 </body>

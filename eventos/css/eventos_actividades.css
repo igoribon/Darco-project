@@ -42,6 +42,7 @@ h2{
     font-size: 1.5rem;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 2rem;
+    font-weight: bolder;
 }  
 
 .evento-1 h3, .evento-2 h3, .evento-3 h3{
@@ -85,7 +86,7 @@ ul li{
 
 .fecha {
         position: absolute;
-        top: 30%;
+        top: 35%;
         left: 8%;
         transition: transform 0.3 ease;
         z-index: 1;
@@ -105,7 +106,7 @@ ul li{
 
 .fecha-evento-2{
     position: absolute;
-    top: 66%;
+    top: 71%;
     left: 8%;
     transition: transform 0.3 ease;
         z-index: 1;
@@ -125,7 +126,7 @@ ul li{
 
 .fecha-evento-3{
     position: absolute;
-    top: 105%;
+    top: 109%;
     left: 8%;
     transition: transform 0.3 ease;
         z-index: 1;
@@ -146,54 +147,128 @@ ul li{
 .img-background{
     background-image: url(../assets_eventos/img_assets/calendar-2.jpg);
     width: 100%;
-    height: 100%;
+    height: auto;
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 0.4rem;
-    
-
-      
+    border-radius: 0.2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    margin-top: 0.2rem;
 }
 
 .container-global{
-    height: 100%;
-    width: 100%;
-}
-.container-1{
-    background-image: url(../assets_eventos/img_assets/Program-1.jpg);
+    background-image: url(../assets_eventos/img_assets/program-2.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height: 50%;
-    opacity: 60%;
-    border-radius: 0.4rem;
-    margin-bottom: 0.4rem;
-    h2{
-        margin-top: 0;
-        position: relative;
-        top: 5%;
+    height: 100%;
+}
+
+.container-1{
+   
+    margin-top: -2rem;
+    opacity: 90%;
+}
+
+.h2-1{
+        background-color: rgba(6, 68, 88, 0.9)   ;
         text-align: center;
+        width: 100%;
+        margin-top: 2rem;
+        font-size: 2rem;
+        color: aliceblue;
+        border-radius: 0.2rem;
         
+    }
+
+.container-2{
+    opacity: 90%;
+    .h2-2{
+        background-color: rgba(6, 68, 88, 0.9);
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: aliceblue;
+        border-radius: 0.2rem;
+        border-top: 0.1rem solid black;
+        border-radius: 0.2rem;
     }
 }
 
-.container-2{
-    background-image: url(../assets_eventos/img_assets/program-2.jpg);
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 50%;
-    opacity: 60%;
-    border-radius: 0.4rem;
-    margin-bottom: 0.4rem;
-
-}
-
 .container-3{
-    background-image: url(../assets_eventos/img_assets/program-3.jpg);
-    background-repeat: no-repeat;
+    opacity: 90%;
+    .h3-3{
+        background-color: rgba(6, 68, 88, 0.9);
+        text-align: center;
+        width: 100%;
+        margin-top: 1rem;
+        font-size: 2rem;
+        color: aliceblue;
+        border-radius: 0.2rem;
+        border-top: 0.1rem solid black;
+        border-radius: 0.2rem;
+    }
+}
+
+/*Tabla*/
+.horario {
     width: 100%;
-    height: 50%;
-    opacity: 60%;
-    border-radius: 0.4rem;
+    border-collapse: collapse;
+    background-color: rgba(14, 185, 241, 0.5);
+    color: black;
+    font-size: 1.2rem;
+}
+
+.horario th, .horario td {
+    border: 0.1rem solid black;
+    padding: 0.5%;
 
 }
 
+
+/* Ajusta el ancho de las columnas */
+.horario th:first-child,
+.horario td:first-child {
+    width: 25%; 
+    text-align: center;
+}
+
+.horario th:last-child,
+.horario td:last-child {
+    width: 75%; 
+}
+
+/* Ajusta el ancho de las columnas */
+
+
+.horario th {
+    background-color: rgba(6, 68, 88, 0.9);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 1%;
+}
+
+.horario tr:nth-child(even) {
+    background-color: rgba(14, 185, 241, 0.7);
+}
+
+/*Tabla*/
+
+
+/*Margen para arreglar el problema del footer que esta pegado a la ultima imagen en la pagina eventos*/
+.margen{
+background-color: transparent;
+width: 100%;    
+height: 4rem;
+margin-bottom: 2rem;
+}
+
+
+.margen-programas{
+    background-color: transparent;
+    width: 100%;
+    height: 1rem;
+}
+/*Margen para arreglar el problema del footer que esta pegado a la ultima imagen en la pagina eventos*/

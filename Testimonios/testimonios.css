@@ -4,9 +4,11 @@
   * {margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    
 }
-
+#navi{
+    display: none;
+}
 body {
     background-color: lightseagreen;
     justify-content: center;
@@ -21,21 +23,20 @@ body {
     font-size: 2rem;
     color: black;
    flex-direction: row;
-
     justify-content: center;
 }
 
 
 .testimonios-container {
-    width: 100%;
-    max-width: 800px;
     background-color: white;
+    width: 100%;
+    max-width: 80%;
+    text-align: center;
     padding: 2rem;
     border-radius: 8px;
     box-shadow: 12px;
-    text-align: center;
-    margin:15%;
-    padding: 0%;
+    padding: 0%;  
+    margin: 10%; 
     
 }
 
@@ -45,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:5rem;
+    text-align: center;
   
 }
 
@@ -54,23 +56,32 @@ body {
     background-color: white;
     padding: 1rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 70%;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     flex-direction: column;
+    
 }
 
 div{display: flex;
-flex-direction: column;
-align-items: center;}
+    flex-direction: column;
+    align-items: center;}   
 /* Imagen de perfil */
 .testimonio img {
     width: 100px;
-    height: 100px;
-    border-radius: 60%;
-    margin-right:  10rem;
+    border-radius: 6%;
+    margin-right:  20remrem;
     align-items: center;
     
 }
+
+.d-flex img{
+    margin: 0 auto;
+    width: 20rem;
+}
+.cuadrado{object-fit: contain;
+width: 100px;
+height: 300px;
+border-radius: 50%;} 
 
 /* Contenido del testimonio */
 .contenido {
@@ -78,8 +89,8 @@ align-items: center;}
     text-align: left;
 }
 
-.contenido h4 {
-    font-size: 1rem;
+.contenido h2{
+    font-size: 2rem;
     color: #333;
     margin-bottom: 3rem;
     display: flex;
@@ -89,14 +100,27 @@ align-items: center;}
     display: flex;
 flex-direction: column;}
 
-.d-flex img{
-    margin: 0 auto;
-    width: 15rem;
-}
+
 .contenido p {
     margin-bottom: 3rem;
-    color: #555;
+    color: rgb(59, 47, 47);
     display: flex;
+    font-size: larger;
 }
 
-
+footer {
+    background-color: rgb(43, 70, 88);
+    width: 100%;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+}
+footer a{
+    color: white;
+}
+footer div{
+    padding: 0 2rem;
+}
