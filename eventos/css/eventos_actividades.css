@@ -35,7 +35,7 @@ opacity: 60%;
     column-gap: 0;
     row-gap: 0.6rem;
 
-    .flecha-animada-1{
+.flecha-animada-1{
         span{
         color: rgba(4, 4, 126, 0.582);
         top: 10%;
@@ -60,6 +60,34 @@ opacity: 60%;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
 }
     }
+
+/*modificar en esta no en la siguiente*/
+.flecha-animada-3{
+    span{
+    color: rgba(4, 4, 126, 0.582);
+    font-size: 6rem;
+    position: absolute;
+    left: 88%;
+    top: 68%;
+    transform: rotate(520deg); /*para girar la flecha*/
+    opacity: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+}
+}
+
+
+.fecha-izq{
+    span{
+        color:  rgba(4, 4, 126, 0.582);
+        font-size: 6rem;
+        position: absolute;
+        left: 50%;
+        top: 65%;
+        transform: rotate(29deg); /*para girar la flecha*/
+        opacity: 0;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
 }
 /*Fin flechas*/
 
@@ -96,8 +124,13 @@ opacity: 60%;
     animation: moverFlecha2 1s forwards;
 }
 
+/*flechas con opacity a borrar*/
+.fecha-evento-2:hover ~ .fecha-izq span {
+    opacity: 1;
+}
 
 
+/*flechas con opacity*/
 
 
 
