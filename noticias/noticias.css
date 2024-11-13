@@ -1,4 +1,4 @@
-/* Media queries para pantallas pequeñas (móviles) */
+   /* Media queries para pantallas pequeñas (móviles) */
 @media (max-width: 700px) {
 p {
    font-size: 1rem; /* Reducción del tamaño del párrafo */
@@ -14,13 +14,6 @@ max-height: 8rem; /* Reducir el área visible para overflow en pantallas pequeñ
  padding: 1rem;
 }
 
-h2 {
-font-size: 1.8rem; /* Ajusta el tamaño del título principal */
-}
-
-h3 {font-size: 1.4rem; /* Ajusta el tamaño de los subtítulos */
-}
-
 p {
 font-size: 1.1rem; /* Ajusta el tamaño del texto */
 }
@@ -30,14 +23,14 @@ margin-bottom: 0.5rem;
 }
 }
 
-
-.contenedor {       
+/*estilos generales*/
+.contenedor {
             padding: 2rem;
-            background-color: #eaeaea;
+            background-color: white;
             border-radius: 1rem;}
 
 .noticia {
- background-color: #ddddee;
+ background-color: white;
  margin-bottom: 2rem;
  padding: 1.5rem;
  border-radius: 1rem;
@@ -53,7 +46,5 @@ text-align: justify;}
               margin: auto;
               display: block;}
     
-.overflow {max-height: 10rem; /* Limita la altura del texto para el overflow */
+.overflow {max-height: 10rem; /* Limita la altura del texto para la descripcion de lo P */
            overflow-y: scroll;}
-   
-    

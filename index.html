@@ -10,7 +10,7 @@
 <body>
     <header>
         <h1>Orión Getxo</h1>
-        <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
+        <img src="/Assets/img_index/logo.png" alt="logo">
         <form action="">
             <label>User<input type="text"></label>
             <label>Pass<input type="text"></label>
@@ -21,14 +21,14 @@
         <label id="lab" for="butt"><span class="ham">&#9776;</span></label>
         <input id="butt" type="checkbox">
         <div id="navi">
-            <h4><a href="/actividades/Actividad">Actividades</a></h4>
-            <h4><a href="/eventos/eventos.html">Eventos</a></h4>
+            <h4><a href="/eventos/eventos.html">Actividades</a></h4>
+            <h4><a href="/eventos/Programas.html">Programas</a></h4>
             <h4><a href="/noticias/noticias.html">Noticias</a></h4>
             <h4><a href="/Testimonios/testimonio.html">Testimonio</a></h4>
-            <h4><a href="/galeria/galeria">Galería</a></h4>
+            <h4><a href="/galeria/galeria.html">Galería</a></h4>
             <h4><a href="/contacto/contacto.html">Contacto</a></h4>
             <h4><a href="/inscripcion/inscripcion.html">Inscripción</a></h4>
-            <h4><a href="#FAQ">FAQ</a></h4>
+            <h4><a href="/index.html#FAQ">FAQ</a></h4>
             <h4 class="home"><a href="/index.html">Home</a></h4>
         </div>
     </nav>
@@ -39,8 +39,10 @@
         <h3>¿Quiénes somos?</h3>
             <p class="who">Somos un club de amantes del tiro con arco, profesionales, deportistas, instructores y aficionados. Nuestro campo de tiro está en el polideportivo Fadura, junto a las pistas de atletismo y nos encantaría que te acercaras a probar con nosotros. </p>
         </div>
-        <h3>Profesionales</h3>
-        <div class="staff">
+        
+        <div class="shadow">
+            <h3>Profesionales</h3>
+            <div class="staff">
             <div class="profe">
                 <img src="/Assets/img_index/monitora1.jpg" alt="Avatar">
                 <p>Mery Guzman</p>
@@ -65,6 +67,7 @@
                 <p>Caza y Equipo</p>
                 <p>Martes a Sábado</p>
             </div>
+        </div>
         </div>
         <h3>Calendario</h3>
         <div class="date">
@@ -112,20 +115,20 @@
     </main>
     <div class="faq" id="FAQ">
         <h3>FAQ</h3>
-        <div class="list">
-            <h6><a href="/index.html#start">¿Qué necesito para empezar en arquería?</a></h6>
-            <h6><a href="/index.html#exp">¿Es necesario tener experiencia previa?</a></h6>
-            <h6><a href="/index.html#clas">¿Ofrecen clases o entrenamientos?</a></h6>
-            <h6><a href="/index.html#age">¿Hay una edad mínima para practicar arquería?</a></h6>
-            <h6><a href="/index.html#tool">¿Puedo traer mi propio equipo de arquería?</a></h6>
-            <h6><a href="/index.html#sec">¿Cuáles son las reglas de seguridad del club?</a></h6>
-            <h6><a href="/index.html#cost">¿Cuáles son los costos de membresía y clases?</a></h6>
-            <h6><a href="/index.html#eve">¿Organizan competencias o eventos?</a></h6>
-            <h6><a href="/index.html#proof">¿Puedo hacer una clase de prueba antes de unirme?</a></h6>
-            <h6><a href="/index.html#insc">¿Cómo me inscribo en el club?</a></h6>
-            <h6><a href="/index.html#open">¿El club está abierto en todas las estaciones del año?</a></h6>
-            <h6><a href="/index.html#inf">¿Cómo puedo obtener más información?</a></h6>
-        </div>
+        <ul class="list">
+            <li><h6><a href="/index.html#start">¿Qué necesito para empezar en arquería?</a></h6></li>
+            <li><h6><a href="/index.html#exp">¿Es necesario tener experiencia previa?</a></h6></li>
+            <li><h6><a href="/index.html#clas">¿Ofrecen clases o entrenamientos?</a></h6></li>
+            <li><h6><a href="/index.html#age">¿Hay una edad mínima para practicar arquería?</a></h6></li>
+            <li><h6><a href="/index.html#tool">¿Puedo traer mi propio equipo de arquería?</a></h6></li>
+            <li><h6><a href="/index.html#sec">¿Cuáles son las reglas de seguridad del club?</a></h6></li>
+            <li><h6><a href="/index.html#cost">¿Cuáles son los costos de membresía y clases?</a></h6></li>
+            <li><h6><a href="/index.html#eve">¿Organizan competencias o eventos?</a></h6></li>
+            <li><h6><a href="/index.html#proof">¿Puedo hacer una clase de prueba antes de unirme?</a></h6></li>
+            <li><h6><a href="/index.html#insc">¿Cómo me inscribo en el club?</a></h6></li>
+            <li><h6><a href="/index.html#open">¿El club está abierto en todas las estaciones del año?</a></h6></li>
+            <li><h6><a href="/index.html#inf">¿Cómo puedo obtener más información?</a></h6></li>
+        </ul>
         <div class="faq_box">
         <h6 id="start">¿Qué necesito para empezar en arquería?</h6>
         <p>No necesitas equipo propio para comenzar. Ofrecemos clases para principiantes donde te proporcionaremos todo lo necesario: arco, flechas, protector de brazo y carcaj. Solo debes venir con ropa cómoda y ajustada para evitar que interfiera con el arco.</p>
@@ -184,13 +187,11 @@
         </div>
     </div>
     <footer>
-        <div>
-            <p>UBICACIÓN</p>
+        <div class="dire">
             <p>48993, Fadura, Getxo, Bizkaia</p>
         </div>
         <img src="/Assets/img_index/logo.png" alt="logo" class="logo">
         <div class="fotsec">
-            <p>RRSS</p>
             <div>
             <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/240px-Instagram_logo_2022.svg.png" alt="Instragram"></a>
             <a href="&"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/266px-X_logo_2023.svg.png" alt="Twitter"></a>

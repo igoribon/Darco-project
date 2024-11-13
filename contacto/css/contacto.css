@@ -11,7 +11,7 @@
                     margin-bottom: 1rem;
                     margin-left: 1rem;
                     margin-right: 1rem;
-                max-width: 80%;}
+                }
 
 
 
@@ -27,12 +27,41 @@ margin-left: 1rem;
 margin-right: 0.2rem;
 margin-bottom: 1rem;}
 
+#rgpd {margin-left: 0.5rem;}
+
 button {font-size: 1.5rem;
     width: 8rem;
     height: 2rem;
     border-radius: 5%;
     margin-bottom: 6rem;
+    margin-top: 2rem;
     }
 
 .boton_cancelar {background-color: black;
                 color: white;}
+
+.mapa {display:none}
+
+@media screen and (min-width: 1080px) {
+    .formulario {margin-right: 10%;
+    }
+
+
+}
+
+@media screen and (min-width: 1919px) {
+    .formulario {margin-right: 50%;
+    }
+
+    .mapa {display: block;
+        position: absolute;
+        right: 1rem;
+        top: 13.5rem;        
+    }
+
+    .botones {display: flex;
+        justify-content: left;
+        gap: 1rem;
+         }
+
+        }

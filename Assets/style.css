@@ -5,7 +5,7 @@
     }
 a   {text-decoration: none; color: rgb(0, 0, 0)}
 :root{
-    --menu: rgb(133, 223, 188);
+    --menu: rgb(192, 207, 202, 80%);
     --campo: ;
 }
 body{
@@ -33,9 +33,12 @@ header label{
     border: 0.1rem solid gray;
     border-radius: 0.6rem;
 }
-.home{
-    text-align: center;
-    grid-area: 3 / 4 / 4 / 2;
+nav{
+    position: fixed;
+    display: block;
+    margin-left: 93%;
+    width: 7%;
+    z-index: 10;
 }
 #butt{
     display: none;
@@ -45,26 +48,36 @@ header label{
     display: flex;
     justify-content: center;
     font-size: 2rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 .ham{
     color: black;
-    margin-right: 3rem;
+    content: "a";
 }
 #butt:checked ~ #navi{
     background-color: var(--menu);
     text-align: center;
-    display: grid;
-    grid-template: 1fr / 1fr 1fr 1fr 1fr;
-    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: -200%;
+}
+#navi a:hover{
+    background-color: red;
+    transition: 200ms;
 }
 #navi{
     display: none;
+    width: 10rem;
 }
 h1{
     margin-left: 1rem;
     display: flex;
     align-items: center;
+}
+h2{
+    text-align: center;
+    margin-right: 2.5rem;
 }
 h3{
     text-align: center;
@@ -73,7 +86,7 @@ h3{
 }
 h4{
     text-decoration: underline;
-    margin: 2rem;
+    margin: 1rem;
     padding: 0.5rem 0.5rem;
 }
 h5{
@@ -90,11 +103,13 @@ h6{
 .who{
     text-align: center;
 }
+.shadow{
+    border-radius: 2rem 2rem 2rem 2rem;
+}
 .staff{
     background-color: var(--campo);
     display: flex;
     justify-content: center;
-    border-radius: 0 0 2rem 2rem;
 }
 main h3{
     background-color: var(--campo);
@@ -177,18 +192,22 @@ main h3{
 .faq p, .faq li{
     margin: 0 2rem;
 }
-
 /*Footer*/
 footer {
     background-color: rgb(43, 70, 88);
     width: 100%;
     color: white;
+    z-index: 2;
     display: flex;
     justify-content: center;
-    text-align: center;
+    align-content: center;
     height: 5rem;
     position: fixed;
     bottom: 0;
+}
+.dire{
+    display: flex;
+    align-items: center;
 }
 footer a{
     color: white;
@@ -201,6 +220,9 @@ footer div{
     flex-wrap: nowrap;
     margin: 0 -2rem;
 }
+.fotsec{
+    align-content: center;
+}
 .fotsec img{
     margin: 0.5rem;
     height: 2rem;
@@ -210,6 +232,11 @@ footer div{
     display: flex;
     align-items: center;
 }
+.logo{
+    filter: sepia(500%) hue-rotate(500deg) brightness(850%);
+    height: 4rem;
+    margin: auto 0;
+}
 @media screen and (min-width: 1080px){
     .list{
         display: flex;
@@ -218,13 +245,26 @@ footer div{
         height: 22rem;
         width: 100%;
     }
+    #butt:checked ~ #navi{
+        margin-left: -100%;
 }
 
 @media screen and (min-width: 1920px){
+    nav{
+        position: relative;
+        display: inline-block;
+        margin-left: 0%;
+        width: 100%;
+        z-index: 10;
+    }
+    .home{
+        flex-direction: row-reverse;
+    }
     #lab{
         display: none;
     }
     #navi{
+        width: 100%;
         display: flex;
         justify-content: center;
         background-color: var(--menu);
@@ -236,7 +276,7 @@ footer div{
     }
     .vid_int{
         position: absolute;
-        top: 35%;
+        top: 15rem;
         right: 18%;
         border-radius: 2rem;
     }
@@ -245,11 +285,6 @@ footer div{
         margin: 42rem 2rem 0 0;
     }
     .list{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
         height: 15rem;
-        width: 100%;
     }
-   
 }

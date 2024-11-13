@@ -13,7 +13,10 @@
                     margin-right: 1rem;
                 max-width: 80%;}
 
-.titulo_pago {margin-top: 2rem;}
+#rgpd {margin-left: 0.5rem;}
+
+.titulo_pago {margin-top: 2rem;
+text-align: center;}
 
 .metodo-pago {max-width: 90%;
             display: flex;
@@ -23,6 +26,7 @@
 .botones {display: flex;
         justify-content: center;
         gap: 1rem;
+        margin-top: 2rem;
          }
 
 main form input {font-size: 2rem;
@@ -30,6 +34,7 @@ margin-left: 1rem;
 margin-right: 0.2rem;
 margin-bottom: 1rem;}
 
+.mapa {display:none}
 
 button {font-size: 1.5rem;
     width: 8rem;
@@ -42,16 +47,51 @@ button {font-size: 1.5rem;
                 color: white;}
 
 @media screen and (min-width: 1080px) {
+    .formulario {margin-right: 10%;
+    }
+    
+    main form input {font-size: 2rem;
+        margin-left: 1rem;
+        margin-right: 0.2rem;
+        margin-bottom: 2rem;
+       }  
+    .titulo_pago {margin-top: 2rem;
+       margin-left: 0.5rem;
+    text-align: left;}
+
     .metodo-pago {max-width: 90%;
         display: flex;
         justify-content: flex-start;
         gap: 2rem;
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
        }
 
+         }
+
+@media screen and (min-width: 1920px) {
+    .formulario {margin-right: 50%;
+    }
+    
+    #rgpd {margin-left: 0.5rem;}
+    
+    .metodo-pago {max-width: 90%;
+        display: flex;
+        justify-content: flex-start;
+        gap: 2rem;
+        margin-left: 1rem;
+       }
+    
+    .mapa {display: block;
+        position: absolute;
+        right: 1rem;
+        top: 20rem;        
+    }
 
     .botones {display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         gap: 1rem;
+        margin-left: 0.5rem;
          }
     
     main form input {font-size: 2rem;
@@ -67,6 +107,5 @@ button {font-size: 1.5rem;
             display: flex;
             justify-content: flex-start
                   }
-       
 
 }

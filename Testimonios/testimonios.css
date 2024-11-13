@@ -1,107 +1,42 @@
+*{padding: 0%;
+margin: 0%;
+box-sizing: border-box;}
 
-  /* Reset básico */
-   
-  * {margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
 body {
     background-color: lightseagreen;
-    justify-content: center;
-    align-items: center;
     height: 100%;
     margin: 0%;
-    
-}
+    }
+/*Estrellas*/
+.centro {display: flex;
+      font-size: 2rem;
+      justify-content: center;}
 
-/* Estrellas */
-.estrellas {
-    font-size: 2rem;
-    color: black;
-   flex-direction: row;
-    justify-content: center;
-}
+/*div principal*/
+.testimonio{ padding: 5rem;
+             background-color:lightblue;
+             border-radius: 5rem;
+             }
 
+/*div testimonios*/
+.testimonios{background-color: pink;
+             margin-bottom: 2rem;
+             padding: 3rem;
+             border-radius: 10rem;
+            }
 
-.testimonios-container {
-    background-color: white;
-    width: 100%;
-    max-width: 80%;
-    text-align: center;
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 12px;
-    padding: 0%;  
-    margin: 10%; 
-    
-}
-
-
-/* Tarjetas de testimonios */
-.testimonios {
-    display: flex;
-    flex-direction: column;
-    gap:5rem;
-    text-align: center;
-  
-}
-
-.testimonio {
-    display: flex;
+.testimonios img {
+    width: 300px;          /* Increase the size */
+    height: auto;
+    border-radius: 6%;     
+    display: block;          /* Ensures image is treated as a block element */
+    margin: 0 auto;        
     align-items: center;
-    background-color: white;
-    padding: 1rem;
-    width: 100%;
-    max-width: 70%;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    flex-direction: column;
-    
-}
-/* PROBLEMA
-div{display: flex;
-    flex-direction: column;
-    align-items: center;}   
-*/
-
-/* Imagen de perfil */
-.testimonio img {
-    width: 100px;
-    border-radius: 6%;
-    margin-right:  20rem;
-    align-items: center;
-    
-}
-
-.d-flex img{
-    margin: 0 auto;
-    width: 20rem;
-}
-.cuadrado{object-fit: contain;
-width: 100px;
-height: 300px;
-border-radius: 50%;} 
-
-/* Contenido del testimonio */
-.contenido {
-    flex: 1;
-    text-align: left;
-}
-.contenido h2{
-    font-size: 2rem;
-    color: #333;
-    margin-bottom: 3rem;
-    display: flex;
-    flex-direction: row;
-}
-.d-flex{
-    display:;
-flex-direction: column;}
+    margin: 0 auto;}          /* Centers the image horizontally */
 
 
-.contenido p {
-    margin-bottom: 3rem;
-    color: rgb(59, 47, 47);
-    display: flex;
-    font-size: larger;
-}
+
+/*parrafos*/
+p{font-size: 1.2rem;
+color: black;
+text-align: center;}

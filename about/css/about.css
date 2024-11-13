@@ -8,7 +8,8 @@ main h5 {margin: 0.5rem}
 
 main p {margin-left: 0.5rem;
         font-size: 1.5rem;
-        text-align: justify;}
+        text-align: justify;
+        margin-right: 1rem;}
 
 .equipo p a {color: pink;}
 
