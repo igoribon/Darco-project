@@ -9,9 +9,16 @@ main h5 {margin: 0.5rem}
 main p {margin-left: 0.5rem;
         font-size: 1.5rem;
         text-align: justify;
-        margin-right: 1rem;}
+        margin-right: 1rem;
+        margin-top: 1rem;}
+
+.logogrupo3 {text-align: center;
+        }
 
 .equipo p a {color: pink;}
 
 .equipo p a:visited {color: violet;}
+
+main {margin-bottom: 6rem;}
+
 

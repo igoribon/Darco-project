@@ -1,33 +1,3 @@
-
-/* Media Queries para responsividad */
-
-/* Dispositivos móviles (pantallas pequeñas) */
-/* @media (max-width: 700px) {
-    Body {
-      Padding: 1rem;
-    }
-  
-    .gallery {
-      Grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
-      Gap: 1rem;
-    }
-  }
-  /* Tablets y pantallas medianas */
-
-  /* @media (min-width: 1080px) and (max-width: 1900px) {
-    .gallery {
-      Grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-      Gap: 1rem;
-    }
-  } */
-
-/* Pantallas grandes (desktop) */
-/* @media (min-width: 1920px) {
-    .gallery {
-      Grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-    }
-  }  */
-
 /* Estilos generales */
 *{
     Margin: 0;
@@ -45,7 +15,7 @@
   /*SECCION DE GALERIA*/
   .galeria {
     display: grid;
-    Grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    Grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     Gap: 1.5rem;
   }
   /*DIV GALERIA*/
@@ -55,6 +25,7 @@
   /*img*/
   .icono-galeria img {Width: 100%;
                       Height: auto;
-                      Transition: transform 0.3s ease;}
+                      Transition: transform 0.3s ease;
+                    }
   
   .icono-galeria img:hover {Transform: scale(1.1);}

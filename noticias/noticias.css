@@ -39,12 +39,19 @@ margin-bottom: 0.5rem;
 
 p {font-size: 1.2rem;
    color: #333;
-text-align: justify;}
+text-align: justify center;}
 
 .noticia img {width: 40%;
+              height: 45%;
               border-radius: 1rem;
               margin: auto;
               display: block;}
+
     
 .overflow {max-height: 10rem; /* Limita la altura del texto para la descripcion de lo P */
-           overflow-y: scroll;}
+           overflow-y: scroll;
+           text-align: center;}
+
+.centrar{width: 20%;
+   background-color: rgb(61, 18, 18);
+   }
