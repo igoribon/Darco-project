@@ -3,7 +3,6 @@ margin: 0%;
 box-sizing: border-box;}
 
 body {
-    background-color: lightseagreen;
     height: 100%;
     margin: 0%;
     }
@@ -14,12 +13,13 @@ body {
 
 /*div principal*/
 .testimonio{ padding: 5rem;
-             background-color:lightblue;
+             background-color: var(--campo);
              border-radius: 5rem;
+             margin: 0 2rem 7rem 2rem;
              }
 
 /*div testimonios*/
-.testimonios{background-color: pink;
+.testimonios{background-color: var(--bubble);
              margin-bottom: 2rem;
              padding: 3rem;
              border-radius: 10rem;
@@ -37,6 +37,41 @@ body {
 
 
 /*parrafos*/
-p{font-size: 1.4rem;
+main p{font-size: 1.4rem;
 color: black;
 text-align: center;}
+
+.testimonio h3{
+    background-color: var(--bubble);
+}
+
+
+@media screen and (min-width: 1080px) {
+
+    .testimonios img{ width: 400px;
+                      height: auto;}
+
+    .testimonio{
+                padding: 6rem;
+                border-radius: 5rem;
+                margin: 0 2rem 7rem 2rem;
+    }
+                
+    
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+
+    .testimonios img{ width: 200px;
+        height: auto;}
+                
+
+}

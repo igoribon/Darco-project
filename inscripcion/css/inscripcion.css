@@ -3,111 +3,122 @@
     padding: 0;
 }
 
-.titulo_inscripcion {margin-top: 1rem;
-                    margin-bottom: 1rem;
-                margin-left: 1rem;}
-
 .texto_inscripcion {margin-top: 1rem;
                     margin-bottom: 1rem;
                     margin-left: 1rem;
                     margin-right: 1rem;
-                max-width: 80%;}
+                    max-width: 80%;
+                    }
 
 #rgpd {margin-left: 0.5rem;}
 
 .titulo_pago {margin-top: 2rem;
-text-align: center;}
+            text-align: center;
+            }
 
 .metodo-pago {max-width: 90%;
             display: flex;
             justify-content: space-around;
            }
 
+main form input {font-size: 2rem;
+                margin-left: 1rem;
+                margin-right: 0.2rem;
+                margin-bottom: 1rem;
+                }
+
+/* Mapa oculto en las versiones móbil y tablet */
+.mapa {display:none}
+
+button {font-size: 1.5rem;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5%;
+        margin-bottom: 6rem;
+        }
+
 .botones {display: flex;
         justify-content: center;
         gap: 1rem;
         margin-top: 2rem;
-         }
-
-main form input {font-size: 2rem;
-margin-left: 1rem;
-margin-right: 0.2rem;
-margin-bottom: 1rem;}
-
-.mapa {display:none}
-
-button {font-size: 1.5rem;
-    width: 8rem;
-    height: 2rem;
-    border-radius: 5%;
-    margin-bottom: 6rem;
-    }
+        }
 
 .boton_cancelar {background-color: black;
-                color: white;}
+                color: white;
+                }
 
 main {margin-bottom: 6rem;}
 
+.color {margin-bottom: 6rem;
+                background-color: var(--campo);
+                margin: 0 2rem 7rem 2rem;
+                padding: 2rem 0 0 0;
+                border-radius: 2rem;}
+}
+
+/* Media Query para tablet */
 @media screen and (min-width: 1080px) {
-    .formulario {margin-right: 10%;
-    }
+
+.formulario {margin-right: 10%;}
     
-    main form input {font-size: 2rem;
-        margin-left: 1rem;
-        margin-right: 0.2rem;
-        margin-bottom: 2rem;
-       }  
-    .titulo_pago {margin-top: 2rem;
-       margin-left: 0.5rem;
-    text-align: left;}
+main form input {font-size: 2rem;
+            margin-left: 1rem;
+            margin-right: 0.2rem;
+            margin-bottom: 2rem;
+            }  
 
-    .metodo-pago {max-width: 90%;
-        display: flex;
-        justify-content: flex-start;
-        gap: 2rem;
-        font-size: 1.5rem;
-        margin-left: 0.5rem;
-       }
+.titulo_pago {margin-top: 2rem;
+            margin-left: 0.5rem;
+            text-align: left;
+            }
 
-         }
+.metodo-pago {max-width: 90%;
+            display: flex;
+            justify-content: flex-start;
+            gap: 2rem;
+            font-size: 1.5rem;
+            margin-left: 0.5rem;
+            }
 
+}
+
+/* Media Query para desktop */
 @media screen and (min-width: 1920px) {
-    .formulario {margin-right: 50%;
-    }
+.formulario {margin-right: 50%;}
     
-    #rgpd {margin-left: 0.5rem;}
+#rgpd {margin-left: 0.5rem;}
     
-    .metodo-pago {max-width: 90%;
-        display: flex;
-        justify-content: flex-start;
-        gap: 2rem;
-        margin-left: 1rem;
-       }
+.metodo-pago {max-width: 90%;
+            display: flex;
+            justify-content: flex-start;
+            gap: 2rem;
+            margin-left: 1rem;
+            }
     
-    .mapa {display: block;
+.mapa {display: block;
         position: absolute;
-        right: 1rem;
+        right: 4.5rem;
         top: 20rem;        
-    }
+        }
 
-    .botones {display: flex;
+.botones {display: flex;
         justify-content: flex-start;
         gap: 1rem;
         margin-left: 0.5rem;
-         }
+        }
     
-    main form input {font-size: 2rem;
-        margin-left: 1rem;
-        margin-right: 0.2rem;
-        margin-bottom: 2rem;
-       }  
+main form input {font-size: 2rem;
+                margin-left: 1rem;
+                margin-right: 0.2rem;
+                margin-bottom: 2rem;
+                }  
     
-    .titulo_pago {margin-top: 2rem;}
+.titulo_pago {margin-top: 2rem;}
 
-    .metodo-pago {font-size: 1.5rem;
+.metodo-pago {font-size: 1.5rem;
             max-width: 90%;
             display: flex;
             justify-content: flex-start
-                  }
+            }
 
 }

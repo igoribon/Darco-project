@@ -1,8 +1,10 @@
-main p {margin-bottom: 2rem;
-margin-left: 1rem;
-margin-right: 1rem;
-text-align: justify;}
+main h5 {margin: 0.5rem}
 
-main h5 {margin: 0.5rem;}
+main p {margin-bottom: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        text-align: justify;}
+
+ul {margin-left: 2rem;}
 
 main {margin-bottom: 6rem;}

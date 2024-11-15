@@ -142,18 +142,18 @@ opacity: 60%;
     }
 
     100% {
-        transform: translate(100%, 50%) rotate(500deg);
+        transform: translate(80%, 250%) rotate(500deg);
     }
 }
 
 
 @keyframes moverFlecha {
     0% {
-        transform: translate(0, 0) rotate(55deg);
+        transform: translate(0, 0) rotate(70deg);
     }
 
     100% {
-        transform: translate(75%, 50%) rotate(55deg);
+        transform: translate(70%, 200%) rotate(55deg);
     }
 }
 
@@ -167,7 +167,7 @@ opacity: 60%;
     }
 
     100% {
-        transform: translate(980px, 20px) rotate(150deg);
+        transform: translate(970px, 45px) rotate(150deg);
     }
 }
 /*Flecha Izq*/
@@ -177,7 +177,7 @@ opacity: 60%;
     }
 
     100% {
-        transform: translate(980px, -10px) rotate(40deg);
+        transform: translate(970px, 10px) rotate(40deg);
     }
 
 }
@@ -272,6 +272,8 @@ opacity: 60%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*Colores Ale*/
+    background-color: var(--campo);
 }
 
 /*stilos commun */
@@ -290,7 +292,8 @@ opacity: 60%;
     margin-bottom: -2rem;
 }
 
-ul li{
+.evento-1, .evento-2, .evento-3 ul li
+{
     text-align: justify;
     width: 100%;
     font-size: 0.9rem;
@@ -521,13 +524,13 @@ margin-bottom: 2rem;
 .title-h2{
     font-size: 2.5rem;
 }
-
+.evento-1, .evento-2, .evento-3{ 
 ul li{
     font-size: 1.6rem;
     width: 95%;
     margin-top: 2rem;
 }
-
+}
 .programa-1, .programa-2, .programa-3{
     padding: 0.9rem;
     font-size: 1.5rem;
@@ -535,7 +538,7 @@ ul li{
 }
 
 
-@media screen  and (min-width: 1800px) {
+@media screen  and (min-width: 1080px) {
 
     .img-background{
         p{
@@ -545,11 +548,7 @@ ul li{
         }
     }
 
-}
-@media screen and (min-width: 1820px) {
-
-
-    /* Inicio animacion*/
+/* Inicio animacion*/
 /*Flecha-evento-1/
 /*Flecha izqierda*/
 @keyframes moverFlecha {
@@ -558,7 +557,7 @@ ul li{
     }
 
     100% {
-        transform: translate(50px, 10px) rotate(55deg);
+        transform: translate(10px, 10px) rotate(55deg);
     }
 }
 
@@ -570,7 +569,7 @@ ul li{
     }
 
     100% {
-        transform: translate(2070px, 300px) rotate(500deg);
+        transform: translate(1210px, 185px) rotate(500deg);
     }
 }
 
@@ -581,7 +580,7 @@ ul li{
     }
 
     100% {
-        transform: translate(1800px, 301px) rotate(55deg);
+        transform: translate(1020px, 188px) rotate(55deg);
     }
 }
 /*Fin-flecha-evento-1*/
@@ -594,7 +593,7 @@ ul li{
     }
 
     100% {
-        transform: translate(1200px, 20px) rotate(150deg);
+        transform: translate(1450px, 20px) rotate(150deg);
     }
 }
 /*Flecha Izq*/
@@ -604,7 +603,7 @@ ul li{
     }
 
     100% {
-        transform: translate(980px, -10px) rotate(40deg);
+        transform: translate(1580px, -10px) rotate(40deg);
     }
 
 }
@@ -617,7 +616,7 @@ ul li{
     }
 
     100% {
-        transform: translate(900%, 2%) rotate(40deg);
+        transform: translate(1210px, -12px) rotate(40deg);
     }
 }
 /*Flecha-Der*/
@@ -627,7 +626,95 @@ ul li{
     }
 
     100% {
-        transform: translate(1530%, 2%) rotate(140deg);
+        transform: translate(1850px, -10px) rotate(140deg);
+    }
+}
+}
+
+
+
+@media screen and (min-width: 1920px) {
+
+
+    /* Inicio animacion*/
+/*Flecha-evento-1/
+/*Flecha izqierda*/
+@keyframes moverFlecha {
+    0% {
+        transform: translate(0, 0) rotate(55deg);
+    }
+
+    100% {
+        transform: translate(40px, 130px) rotate(55deg);
+    }
+}
+
+
+/*Flecha derecha*/
+@keyframes moverFlecha2 {
+    0% {
+        transform: translate(0, 0) rotate(500deg);
+    }
+
+    100% {
+        transform: translate(2150px, 350px) rotate(500deg);
+    }
+}
+
+
+@keyframes moverFlecha {
+    0% {
+        transform: translate(0, 0) rotate(55deg);
+    }
+
+    100% {
+        transform: translate(1860px, 370px) rotate(55deg);   
+    }
+}
+/*Fin-flecha-evento-1*/
+
+/*Flecha-evento-2/
+/*Flecha derecha*/
+@keyframes moverFlecha3 {
+    0% {
+        transform: translate(0, 0) rotate(150deg);
+    }
+
+    100% {
+        transform: translate(2560px, 70px) rotate(150deg);
+    }
+}
+/*Flecha Izq*/
+@keyframes moverFlechaIzq {
+    0% {
+        transform: translate(0, 0) rotate(40deg);
+    }
+
+    100% {
+        transform: translate(2870px, 20px) rotate(40deg);
+    }
+
+}
+
+/*Flecha-evento-3*/
+/*Flecha-Izq*/
+@keyframes moverFlecha5 {
+    0% {
+        transform: translate(0, 0) rotate(40deg);
+    }
+
+    100% {
+        transform: translate(2760%, 35%) rotate(40deg);
+    }
+}
+/*Flecha-Der*/
+@keyframes moverFlecha6 {
+    0% {
+        transform: translate(0, 0) rotate(140deg);
+    }
+
+    100% {
+        transform: translate(4080%, 30%) rotate(140deg);
     }
 }
 }

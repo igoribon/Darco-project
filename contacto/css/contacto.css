@@ -3,67 +3,69 @@
     padding: 0;
 }
 
-.titulo_contacto {margin-top: 1rem;
-                    margin-bottom: 1rem;
-                margin-left: 1rem;}
-
 .texto_contacto {margin-top: 1rem;
-                    margin-bottom: 1rem;
-                    margin-left: 1rem;
-                    margin-right: 1rem;
+                margin-bottom: 1rem;
+                margin-left: 1rem;
+                margin-right: 1rem;
                 }
 
+main label {font-size: 1.5rem;}
 
+main form input {font-size: 2rem;
+                margin-left: 1rem;
+                margin-right: 0.2rem;
+                margin-bottom: 1rem;
+                }
+
+#rgpd {margin-left: 0.5rem;}
+
+
+
+button {font-size: 1.5rem;
+        width: 8rem;
+        height: 2rem;
+        border-radius: 5%;
+        margin-bottom: 6rem;
+        margin-top: 2rem;
+        }
 
 .botones {display: flex;
         justify-content: center;
         gap: 1rem;
-         }
-main label {
-    font-size: 1.5rem;}
-
-main form input {font-size: 2rem;
-margin-left: 1rem;
-margin-right: 0.2rem;
-margin-bottom: 1rem;}
-
-#rgpd {margin-left: 0.5rem;}
-
-button {font-size: 1.5rem;
-    width: 8rem;
-    height: 2rem;
-    border-radius: 5%;
-    margin-bottom: 6rem;
-    margin-top: 2rem;
-    }
+        }
 
 .boton_cancelar {background-color: black;
-                color: white;}
+                color: white;
+                }
 
+/* Mapa oculto en la versión móvil y tablet */
 .mapa {display:none}
 
-main {margin-bottom: 6rem;}
+.color {margin-bottom: 6rem;
+        background-color: var(--campo);
+        margin: 0 2rem 7rem 2rem;
+        padding: 2rem 0 0 0;
+        border-radius: 2rem;}
 
+/* Media Query para pantallas de tablet */
 @media screen and (min-width: 1080px) {
-    .formulario {margin-right: 10%;
-    }
-
+.formulario {margin-right: 10%;}
 
 }
 
+/* Media Query para pantallas desktop */
 @media screen and (min-width: 1919px) {
-    .formulario {margin-right: 50%;
-    }
+.formulario {margin-right: 50%;}
 
-    .mapa {display: block;
+.mapa {display: block;
         position: absolute;
-        right: 1rem;
-        top: 13.5rem;        
-    }
+        right: 4.5rem;
+        top: 22rem;    
+        }
 
-    .botones {display: flex;
+.botones {display: flex;
         justify-content: left;
         gap: 1rem;
-         }
-
         }
+
+}

@@ -1,57 +1,41 @@
-   /* Media queries para pantallas pequeñas (móviles) */
-@media (max-width: 700px) {
-p {
-   font-size: 1rem; /* Reducción del tamaño del párrafo */
-}
-.overflow {
-max-height: 8rem; /* Reducir el área visible para overflow en pantallas pequeñas */
-}
-}
-
-/* Media queries para pantallas medianas (tablets) */
-@media (max-width: 1080px) {
-.contenedor {
- padding: 1rem;
-}
-
-p {
-font-size: 1.1rem; /* Ajusta el tamaño del texto */
-}
-
-img {
-margin-bottom: 0.5rem;
-}
-}
 
 /*estilos generales*/
-.contenedor {
-            padding: 2rem;
-            background-color: white;
+.contenedor {padding: 2rem;
+            background-color: var(--body);
             border-radius: 1rem;}
 
-.noticia {
- background-color: white;
- margin-bottom: 2rem;
- padding: 1.5rem;
- border-radius: 1rem;
- overflow: hidden;
- }
+.noticia {background-color: var(--campo);
+          margin-bottom: 2rem;
+          padding: .5rem;
+          border-radius: 1rem;
+          overflow: hidden;}
 
-p {font-size: 1.2rem;
-   color: #333;
-text-align: justify center;}
+.parrafo {font-size: 1rem;
+           color: #333;
+           text-align: justify center;}
 
-.noticia img {width: 40%;
-              height: 45%;
+.noticia img {width: 45%;
+              height: 25%;
               border-radius: 1rem;
               margin: auto;
               display: block;}
 
     
-.overflow {max-height: 10rem; /* Limita la altura del texto para la descripcion de lo P */
+.parrafo  {max-height: 10rem; /* Limita la altura del texto para la descripcion de lo P */
            overflow-y: scroll;
            text-align: center;}
 
 .centrar{width: 20%;
-   background-color: rgb(61, 18, 18);
-   }
+         background-color: rgb(61, 18, 18);}
+
+/*Media Queri Imagenes*/
+@media screen and (min-width: 1080px){
+   .noticia img {width: 60%;
+   height: 45%;}
+    .parrafo{font-size: 1.4rem;}}
+      
+   @media screen and (min-width: 1890px){
+   .noticia img {width: 65%;
+   height: 50%;}}
+   
+   
