@@ -70,12 +70,13 @@
 <p>Grupo3 está formado por un equipo especializado en el diseño de páginas web con Html5, Css3 y Javascript. Los integrantes son:</p>
 
 
-| ![Alejandro](about/assets_about/Alejandro.jpg) | <p><a href="https://github.com/Varushet">Alejandro:</a> Programador senior de Html5 y Css 2-3. Responsable de home, Ham-button, carrusel y elemntos comunes </p> |
+| EQUIPO | FUNCIONES |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| ![Allan](about/assets_about/Allan.jpg) | <p><a href="https://github.com/Allan941709">Allan:</a> Scrum Master. Programador senior de Html5 y Css 2-3. Repsonsble de noticas </p> |
-| ![Azalfa](about/assets_about/Azalfa.jpg) | <p><a href="https://github.com/zille5">Azalfa:</a> Programador senior de Html5 y Css 2-3. Responsable de testimonios </p>|
-| ![Igor](about/assets_about/Igor.jpg) | <p><a href="https://github.com/igoribon">Igor:</a> Product owner. Programador senior de Html5 y Css 2-3. Responsable de formularios y elementos legales </p> |
-| ![Najwa](about/assets_about/Najwa.jpg) | <p><a href="https://github.com/Najwaelqortobi">Najwa:</a> Programador senior de Html5 y Css 2-3. Responsable de actividades y programas </p> |
+| [![Alejandro](about/assets_about/Alejandro.jpg)](https://github.com/Varushet) | Alejandro: Programador senior de Html5 y Css 2-3. Responsable de home, Ham-button, carrusel y elemntos comunes |
+| [![Allan](about/assets_about/Allan.jpg)](https://github.com/Allan941709) | Allan: Scrum Master. Programador senior de Html5 y Css 2-3. Repsonsble de noticas |
+| [![Azalfa](about/assets_about/Azalfa.jpg)](https://github.com/zille5) | Azalfa:Programador senior de Html5 y Css 2-3. Responsable de testimonios |
+| [![Igor](about/assets_about/Igor.jpg)](https://github.com/igoribon) | Igor: Product owner. Programador senior de Html5 y Css 2-3. Responsable de formularios y elementos legales |
+| [![Najwa](about/assets_about/Najwa.jpg)](https://github.com/Najwaelqortobi) | Najwa: Programador senior de Html5 y Css 2-3. Responsable de actividades y programas |
 
 <p>El sitio cumple con los requisitos de la RGPD en vigor y cuenta con una página donde se describen los derechos de los usuarios con respecto a los datos que facilitan a Orion Getxo.</p>
 </body>
