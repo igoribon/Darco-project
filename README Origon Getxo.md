@@ -18,12 +18,32 @@
      
 <h1>Estructura del sitio</h1>
 <p>El sitio cuenta con una página Home de presentación del club con noticias de última hora y que da acceso a las demás páginas.</p>
+
+![Página de inicio](Assets/Read_me/Home.jpg)
+
 <p>Los eventos están agrupados y tienen a su vez una página con los programas de las distintas actividades.</p>
+
+![Actividades](Assets/Read_me/Actividades.jpg)
+
 <p>Existe un formulario de contacto donde las personas interesadas pueden dirigir sus preguntas y comentarios al club así como solicitar información. Así mismo existe un formulario donde quien quiera integrarse en el club o participar de manera unitaria en alguna de las actividades pueda inscribirse y pagar la cuantía a través de los distintos modelos de pago.</p>
+
+![Formualrio de contacto](Assets/Read_me/Inscripcion.jpg)
+
 <p>Durante las actividades que realiza el club se toman fotografías que se incorporan a la página de galería para que los visitantes puedan ver cómo son estas.</p>
+
+![Galeria](Assets/Read_me/Galeria.jpg)
+
 <p>Los socios se han mostrado interesados en manifestar su apoyo por lo que se ha creado una página donde se recogen sus comentarios.</p>
+
+![Testimonios](Assets/Read_me/Testimonios.jpg)
 <p>También se cuenta con una página llamada FAQ donde se muestran las preguntas más comunes para una primera resolución de cuestiones. Para mayor información existe el formulario de contacto.</p>
+
+![FAQ](Assets/Read_me/FAQ.jpg)
+
 <p>Todas ellas cuentan con un menú responsive formato “hamburguesa” para los tamaños móvil y tablet y completo para el formato desktop.</p>
+
+![Hamburguesa](Assets/Read_me/Ham.jpg)
+
 <p>Una vez que un usuario es dado de alta como socio del club existe la posibilidad de loguearse para ser reconocido como tal y no tener que pagar por las actividades en las que participe aunque sigue siendo necesaria su inscripción a los mismos. Esta parte queda pendiente de un posterior desarrollo que no es objeto de este proyecto y se realizará usando programación en Javascript.</p>
      
 <h1>Dónde pueden recibir ayuda los usuarios</h1>

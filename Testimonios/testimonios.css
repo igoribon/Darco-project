@@ -26,7 +26,7 @@ body {
             }
 
 .testimonios img {
-    width: 300px;          /* Increase the size */
+    width: 500px;          /* Increase the size */
     height: auto;
     border-radius: 6%;     
     display: block;          /* Ensures image is treated as a block element */
@@ -46,32 +46,17 @@ text-align: center;}
 }
 
 
-@media screen and (min-width: 1080px) {
-
-    .testimonios img{ width: 400px;
+@media screen and (max-width: 1080px) {
+    .testimonios img{ width: 350px;
                       height: auto;}
-
     .testimonio{
                 padding: 6rem;
                 border-radius: 5rem;
-                margin: 0 2rem 7rem 2rem;
+                margin: 0 2rem 7rem 2rem;}
+            } 
+
+ 
+@media screen (min-width: 700px){
+    .testimonios img{ width:150px;
+       height: auto;}
     }
-                
-    
-
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width: 700px){
-
-    .testimonios img{ width: 200px;
-        height: auto;}
-                
-
-}
