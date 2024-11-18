@@ -13,7 +13,8 @@ main {margin: 1rem;
 
   /* Estilos de la galería */
   /*SECCION DE GALERIA*/
-  .galeria {display: grid;
+  .galeria {height: 190%;
+            display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 1.5rem;}
 

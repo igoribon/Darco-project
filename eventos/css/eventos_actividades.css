@@ -435,13 +435,14 @@ opacity: 60%;
     }
 }
 
-/*Tabla*/
+/*Tablacolor parafos dentro de las tablas*/ 
 .horario {
     width: 100%;
     border-collapse: collapse;
     background-color: rgba(14, 185, 241, 0.5);
     color: black;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .horario th, .horario td {
@@ -479,6 +480,9 @@ opacity: 60%;
     background-color: rgba(14, 185, 241, 0.7);
 }
 
+.horario tr:nth-child(odd) {
+    background-color: rgb(178, 178, 199);
+}
 /*Tabla*/
 
 

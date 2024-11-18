@@ -1,4 +1,9 @@
+![Grupo 3](/about/assets_about/Banner.png)
 <h1>Presentación del proyecto</h1>
+<h2>Orión Getxo</h2>
+
+![Club Orión](/Assets/img_index/logo.png)
+
 <p>Este proyecto responde a la necesidad del Club Orion Getxo de contar con presencia en internet para darse a conocer, poder mostrar su actividad (reuniones, quedadas, campeonatos, etc.). También para poder captar asociados y darles toda la información necesaria del día a día del club.</p>
 <p>En definitiva, un punto de encuentro de todos aquellos interesados en el mundo del tiro con arco, sobretodo de Getxo y alrededores.</p>
 <p>Desde la dirección del club se contactó con Grupo3 solicitando el desarrollo de una página web que contuviera por lo menos una serie de elementos que ellos consideraban mínimos para el proyecto que eran:</p>
@@ -53,11 +58,25 @@
         <li>Teléfono: 944 01 23 45</li>
         <li>Correo electrónico: <a href="mailto:info@oriongetxo.com">info@oriongetxo.com</a></li>
     </ul>
+
+![Grupo 3](/about/assets_about/Banner.png)
+
 <p>Para cualquier cuestión técnica se pueden poner en contacto con Grupo3 en el email: <a href="mailto:info@grupo3.com">info@grupo3.com</a></p>
      
 <h1>Quién mantiene y contribuye al proyecto</h1>
 <p>Este proyecto está mantenido por el propio club Orion Getxo quien se encarga de alimentar con información de primera mano y actualizadas de las propias actividades, noticias del mundo del tiro con arco, etc.</p>
 <p>La parte técnica recae en la empresa Grupo3 que asegura el buen funcionamiento de la página web actualizándola con todos aquellos elementos que sean necesarios.</p>
+
+<p>Grupo3 está formado por un equipo especializado en el diseño de páginas web con Html5, Css3 y Javascript. Los integrantes son:</p>
+
+
+| ![Alejandro](about/assets_about/Alejandro.jpg) | <p><a href="https://github.com/Varushet">Alejandro:</a> Programador senior de Html5 y Css 2-3. Responsable de home, Ham-button, carrusel y elemntos comunes </p> |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| ![Allan](about/assets_about/Allan.jpg) | <p><a href="https://github.com/Allan941709">Allan:</a> Scrum Master. Programador senior de Html5 y Css 2-3. Repsonsble de noticas </p> |
+| ![Azalfa](about/assets_about/Azalfa.jpg) | <p><a href="https://github.com/zille5">Azalfa:</a> Programador senior de Html5 y Css 2-3. Responsable de testimonios </p>|
+| ![Igor](about/assets_about/Igor.jpg) | <p><a href="https://github.com/igoribon">Igor:</a> Product owner. Programador senior de Html5 y Css 2-3. Responsable de formularios y elementos legales </p> |
+| ![Najwa](about/assets_about/Najwa.jpg) | <p><a href="https://github.com/Najwaelqortobi">Najwa:</a> Programador senior de Html5 y Css 2-3. Responsable de actividades y programas </p> |
+
 <p>El sitio cumple con los requisitos de la RGPD en vigor y cuenta con una página donde se describen los derechos de los usuarios con respecto a los datos que facilitan a Orion Getxo.</p>
 </body>
 </html>
